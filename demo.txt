@@ -1,0 +1,98 @@
+<section class="section project" id="project" aria-label="project">
+                <div class="container">
+                    <p class="section-subtitle has-before text-center">Projects</p>
+                    <h2 class="h2 section-title text-center">
+                        Eleventh Acquire complete <span class="has-before">project</span>
+                    </h2>
+                    {{-- <ul class="filter-list">
+                    <li>
+                        <button class="filter-btn active" data-filter-btn>All</button>
+                    </li>
+                    <li>
+                        <button class="filter-btn" data-filter-btn>Logo Decign</button>
+                    </li>
+                    <li>
+                        <button class="filter-btn" data-filter-btn>Motion Graphic</button>
+                    </li>
+                    <li>
+                        <button class="filter-btn" data-filter-btn>Landing Page</button>
+                    </li>
+                    <li>
+                        <button class="filter-btn" data-filter-btn>Branding Decign</button>
+                    </li>
+                </ul> --}}
+                    <ul class="grid-list">
+                        <li>
+                            <div class="project-card">
+                                <figure class="card-banner img-holder" style="--width: 835; --height: 429;">
+                                    <img src="./assets/images/project-1.jpg" width="835" height="429"
+                                        loading="lazy" alt="Book art Decign" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Social Media Management</a>
+                                    </h3>
+
+                                    <a href="#" class="card-tag">Branding</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card">
+                                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                                    <img src="./assets/images/project-2.jpg" width="416" height="429"
+                                        loading="lazy" alt="Graphic Decign" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Graphic Decign</a>
+                                    </h3>
+                                    <a href="#" class="card-tag">Decign</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card">
+                                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                                    <img src="./assets/images/project-3.jpg" width="416" height="429"
+                                        loading="lazy" alt="3d Digital Art" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Brand Logo</a>
+                                    </h3>
+                                    <a href="#" class="card-tag">Decign</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card">
+                                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                                    <img src="./assets/images/project-4.jpg" width="416" height="429"
+                                        loading="lazy" alt="Web Decign" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Web Decign</a>
+                                    </h3>
+                                    <a href="#" class="card-tag">Decign</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card">
+                                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                                    <img src="./assets/images/project-5.jpg" width="416" height="429"
+                                        loading="lazy" alt="Mobile App Decign" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Mobile App Decign</a>
+                                    </h3>
+                                    <a href="#" class="card-tag">Decign</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>

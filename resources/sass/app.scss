@@ -1,0 +1,404 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "bootstrap/scss/bootstrap";
+
+.rounded-circle {
+    @media only screen and (max-width: 600px) {
+        border-radius: 0 !important;
+    }
+}
+
+.w-75 {
+    @media only screen and (max-width: 600px) {
+        width: 100% !important;
+    }
+}
+
+.h-75 {
+    @media only screen and (max-width: 600px) {
+        height: 100% !important;
+    }
+}
+
+.slick-slide {
+    margin: 0px 40px;
+}
+.slick-slide img {
+    width: 180px;
+    @media only screen and (max-width: 600px) {
+        width: 100px;
+    }
+}
+/*
+    .slick-slider
+    {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    } */
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus {
+    outline: none;
+}
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: "";
+}
+.slick-track:after {
+    clear: both;
+}
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir="rtl"] .slick-slide {
+    float: right;
+}
+.slick-slide img {
+    display: block;
+}
+.slick-slide.slick-loading img {
+    display: none;
+}
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* spacer ends */
+
+/* slider styles */
+.sd_master_wrapper {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 10px;
+    z-index: 9999;
+}
+.sdtestBg3 {
+    height: 100%;
+    width: 80%;
+    background: #fff;
+    position: absolute;
+    bottom: -40px;
+    left: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
+    z-index: 1;
+}
+.sdtestBg2 {
+    height: 100%;
+    width: 90%;
+    background: #fff;
+    position: absolute;
+    bottom: -22px;
+    left: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
+    z-index: 2;
+}
+
+.sd_scroll {
+    height: auto;
+    max-height: 180px;
+    overflow: auto;
+}
+
+.slideshow {
+    position: relative;
+    height: auto;
+    background: #fff;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+    background-image: url(https://img.icons8.com/glyph-neue/64/quote-left.png),
+        url(https://img.icons8.com/glyph-neue/64/quote-right.png);
+    background-position:
+        top 15px left 15px,
+        bottom 40% right 15px;
+    background-repeat: no-repeat;
+    background-size: 50px, 50px;
+    z-index: 3;
+    @media only screen and (max-width: 600px) {
+        background-size: 20px, 20px;
+    }
+}
+button.slick-prev.slick-arrow {
+    position: absolute;
+    z-index: 9999;
+    bottom: -80px;
+    left: 0;
+    background: transparent;
+    color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background-image: url(https://img.icons8.com/ios-filled/50/circled-left-2.png);
+    background-size: 100% 100%;
+}
+button.slick-next.slick-arrow {
+    position: absolute;
+    bottom: -82px;
+    right: 0px;
+    background: transparent;
+    color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 30px;
+    background-image: url(https://img.icons8.com/ios-filled/50/circled-right-2.png);
+    background-size: 100% 100%;
+}
+.pagingInfo {
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+}
+.sdCustomSliderHeadig {
+    color: #94a2b3;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: center;
+}
+.sdCustomSliderBtn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: montserrat;
+    background: #e31c3a;
+    color: #fff;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sdAllContent {
+    width: 75%;
+    margin: auto;
+}
+
+.content {
+    display: block !important;
+    padding: 5px;
+    margin: 30px 0;
+}
+.SdClientName {
+    text-align: center;
+    color: #272d4e;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-top: 15px;
+}
+.SdClientDesc {
+    text-align: center;
+    color: #d58e22;
+    font-size: 18px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* style for moblile */
+@media (max-width: 576px) {
+    .sd_scroll {
+        height: auto;
+        overflow: auto;
+        max-height: 240px;
+    }
+
+    .thumbnail,
+    .btnNtxt {
+        width: 100% !important;
+        display: block !important;
+    }
+}
+/* scroll bar */
+/* total width */
+.sd_scroll::-webkit-scrollbar {
+    background-color: transparent;
+    width: 6px;
+}
+
+/* background of the scrollbar except button or resizer */
+.sd_scroll::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.sd_scroll::-webkit-scrollbar-track:hover {
+    background-color: transparent;
+}
+
+/* scrollbar itself */
+.sd_scroll::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+}
+.sd_scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a5;
+}
+
+.footer-icon {
+    &:hover {
+        transform: rotateX(180deg);
+        background-color: #fff;
+        svg {
+            fill: #d58e22;
+        }
+    }
+}
+
+.foot-back {
+    background-color: #fcf3ed;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.text-3-lines {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.custom-image {
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.curved-image {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.curved-image-left {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.curved-image-full {
+    border-radius: 50px;
+}
+
+.card-rounded {
+    border-radius: 20px !important;
+}
+
+.font-lus {
+    font-family: "DM Serif Display", serif !important;
+}
+
+.font-lib {
+    font-family: "Libre Caslon Display", serif !important;
+}
+
+.font-man {
+    font-family: "Manrope", sans-serif !important;
+}
+
+.navbar-brand img {
+  width: 80px;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+  color: #000;
+  font-size: 14px;
+  padding: 0.5em 1em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
+
+.card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.b-sale {
+    h2 {
+        font-size: 24px;
+        font-family: "DM Serif Display", serif;
+    }
+    p {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 28px;
+        font-family: "DM Serif Display", serif;
+    }
+    button {
+        font-family: "Montserrat", sans-serif;
+        margin-top: 20px;
+    }
+}
