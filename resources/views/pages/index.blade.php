@@ -10,7 +10,7 @@
                             <h1 class="display-6 mb-4 text-black font-lus fst-italic">Create a masterpiece and scale it to the moon. We
                                 specialize in futuristic sustainability, to increase your brand relevance for today and
                                 tomorrow.</h1>
-                            <p class="mb-3 text-secondary font-lus">
+                            <p class="mb-3 text-secondary font-man">
                                 We offer customized solutions tailored to your needs. Trust us as your one-stop
                                 shop for branding, web design, and content marketing.
                             </p>
@@ -27,22 +27,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="mb-5">
-                    <div class="row justify-content-md-center" id="clients">
-                        <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-                            <h2 class="display-6 lead mb-0 font-lib">Trusted by</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="logos-slider slider mb-4">
-                    <div class="slide"><img src="./assets/img/hero/11.png"></div>
-                    <div class="slide"><img src="./assets/img/hero/google.png"></div>
-                    <div class="slide"><img src="./assets/img/hero/campbells.png"></div>
-                    <div class="slide"><img src="./assets/img/hero/ulta-beauty.png"></div>
-                    <div class="slide"><img src="./assets/img/hero/lyft.png"></div>
-                    <div class="slide"><img src="./assets/img/hero/converse.png"></div>
-                    <div class="slide"><img src="./assets/img/hero/ameerah.png"></div>
-                </div>
+                
             </div>
         </section>
 
@@ -63,7 +48,7 @@
                     <div class="col-12 col-md-3">
                         <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
                             <div class="text-center">
-                                <figure class="bsb-overlay-figure d-flex justify-content-center"
+                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center"
                                     style="--bsb-overlay-figure-opacity: .3">
                                     <img class="img-fluid" loading="lazy" src="./assets/img/single/Brands For Sale.png"
                                         alt="">
@@ -85,7 +70,7 @@
                     <div class="col-12 col-md-3">
                         <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
                             <div class="text-center">
-                                <figure class="bsb-overlay-figure d-flex justify-content-center"
+                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center"
                                     style="--bsb-overlay-figure-opacity: .3">
                                     <img class="img-fluid" loading="lazy" src="./assets/img/single/Branding.png"
                                         alt="">
@@ -107,7 +92,7 @@
                     <div class="col-12 col-md-3">
                         <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
                             <div class="text-center">
-                                <figure class="bsb-overlay-figure d-flex justify-content-center"
+                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center"
                                     style="--bsb-overlay-figure-opacity: .3">
                                     <img class="img-fluid" loading="lazy" src="./assets/img/single/Marketing & Content Creation.png"
                                         alt="">
@@ -129,7 +114,7 @@
                     <div class="col-12 col-md-3">
                         <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
                             <div class="text-center">
-                                <figure class="bsb-overlay-figure d-flex justify-content-center"
+                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center"
                                 style="--bsb-overlay-figure-opacity: .3">
                                 <img class="img-fluid" loading="lazy" src="./assets/img/single/Concept Creation.png"
                                     alt="">
@@ -261,6 +246,23 @@
                 </div>
             </div>
         </section>
+
+        <div>
+            <div class="row justify-content-md-center" id="clients">
+                <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+                    <h2 class="display-6 mb-0 text-center pb-4 font-lib">Trusted by</h2>
+                </div>
+            </div>
+        </div>
+        <div class="logos-slider slider mb-4">
+            <div class="slide"><img src="./assets/img/hero/11.png"></div>
+            <div class="slide"><img src="./assets/img/hero/google.png"></div>
+            <div class="slide"><img src="./assets/img/hero/campbells.png"></div>
+            <div class="slide"><img src="./assets/img/hero/ulta-beauty.png"></div>
+            <div class="slide"><img src="./assets/img/hero/lyft.png"></div>
+            <div class="slide"><img src="./assets/img/hero/converse.png"></div>
+            <div class="slide"><img src="./assets/img/hero/ameerah.png"></div>
+        </div>
         @include('includes.get-started')
     </main>
 @endsection
@@ -309,6 +311,18 @@
                     $(this).removeClass('shadow');
                 }
             );
+
+        });
+        $(document).ready(function() {
+            $(".zoom-img").hover(
+                function() {
+                    $(this).addClass('p-3');
+                },
+                function() {
+                    $(this).removeClass('p-3');
+                }
+            );
+
         });
     </script>
 @endpush
