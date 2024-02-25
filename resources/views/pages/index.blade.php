@@ -7,7 +7,8 @@
                 <div class="row align-items-center">
                     <div class="col-md-7">
                         <div class="p-4">
-                            <h1 class="display-6 mb-4 text-black font-lus fst-italic">Create a masterpiece and scale it to the moon. We
+                            <h1 class="display-6 mb-4 text-black font-lus fst-italic">Create a masterpiece and scale it to
+                                the moon. We
                                 specialize in futuristic sustainability, to increase your brand relevance for today and
                                 tomorrow.</h1>
                             <p class="mb-3 text-secondary font-man">
@@ -27,7 +28,26 @@
                         </figure>
                     </div>
                 </div>
-                
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <h2 class="display-6 mb-0 font-lib text-center mb-3">About Us</h2>
+                        <figure class="bsb-overlay-figure w-100 h-75 m-0" style="--bsb-overlay-figure-opacity: .3">
+                            <img class="img-fluid w-100 h-75 object-fit-cover curved-image-top" loading="lazy"
+                                src="./assets/img/hero/newyork.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="text-dark fs-18">Based in New York, the capital of the world, we lead a network from entry to exit and beyond.
+                            Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
+                            tomorrow. We have an extensively written e-book which was masterfully researched and implemented
+                            for 2 years prior to being published to enable to you follow the blueprint mark for mark in your
+                            own e-commerce business as well as a launch planner to facilitate in the days leading up to your
+                            brand launch. Our VIP design day is premeditated and intended for those who need it done ASAP.
+                            Studio XI creates and edits one months worth of content so you can focus on getting and
+                            fulfilling your sales.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -47,88 +67,104 @@
                 <div class="row gy-4 gy-md-0 gx-xxl-5">
                     <div class="col-12 col-md-3">
                         <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
-                            <div class="text-center">
-                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center"
+                            <div class="text-left">
+                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center m-0"
                                     style="--bsb-overlay-figure-opacity: .3">
                                     <img class="img-fluid" loading="lazy" src="./assets/img/single/Brands For Sale.png"
                                         alt="">
                                 </figure>
-                                <h5 class="fw-bold font-man">Brands For Sale</h5>
-                                <div class="my-3">
-                                    <a href="{{ route('branding') }}" class="text-decoration-none link-primary">
-                                        Learn More
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                        </svg>
-                                    </a>
+                                <div class="p-2">
+                                    <h5 class="fw-bold font-man fs-18">Brands For Sale</h5>
+                                    <div class="my-2">
+                                        <p>Buy or sell ecommerce stores with our marketplace. Established businesses, proven
+                                            profitability, and due diligence.</p>
+                                        <a href="{{ route('branding') }}" class="text-decoration-none link-primary">
+                                            Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
-                            <div class="text-center">
-                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center"
+                            <div class="text-left">
+                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center m-0"
                                     style="--bsb-overlay-figure-opacity: .3">
                                     <img class="img-fluid" loading="lazy" src="./assets/img/single/Branding.png"
                                         alt="">
                                 </figure>
-                                <h5 class="fw-bold font-man">Branding</h5>
-                                <div class="my-3">
-                                    <a href="{{ route('branding') }}" class="text-decoration-none link-primary">
-                                        Learn More
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                        </svg>
-                                    </a>
+                                <div class="p-2">
+                                    <h5 class="fw-bold font-man fs-18">Branding</h5>
+                                    <div class="my-2">
+                                        <p>Craft a unique identity for your business with our expert services. Logo, color
+                                            palette, messaging, and more.</p>
+                                        <a href="{{ route('branding') }}" class="text-decoration-none link-primary">
+                                            Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
-                            <div class="text-center">
-                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center"
+                            <div class="text-left">
+                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center m-0"
                                     style="--bsb-overlay-figure-opacity: .3">
-                                    <img class="img-fluid" loading="lazy" src="./assets/img/single/Marketing & Content Creation.png"
+                                    <img class="img-fluid" loading="lazy"
+                                        src="./assets/img/single/Marketing & Content Creation.png" alt="">
+                                </figure>
+                                <div class="p-2">
+                                    <h5 class="fw-bold font-man fs-18">Marketing & Content Creation</h5>
+                                    <div class="my-2">
+                                        <p>Boost your online presence with strategic marketing and engaging content. SEO,
+                                            social media, email, and more.</p>
+                                        <a href="{{ route('marketing') }}" class="text-decoration-none link-primary">
+                                            Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
+                            <div class="text-left">
+                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center m-0"
+                                    style="--bsb-overlay-figure-opacity: .3">
+                                    <img class="img-fluid" loading="lazy" src="./assets/img/single/Concept Creation.png"
                                         alt="">
                                 </figure>
-                                <h5 class="fw-bold font-man">Marketing & Content Creation</h5>
-                                <div class="my-3">
-                                    <a href="{{ route('marketing') }}" class="text-decoration-none link-primary">
-                                        Learn More
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
-                            <div class="text-center">
-                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center"
-                                style="--bsb-overlay-figure-opacity: .3">
-                                <img class="img-fluid" loading="lazy" src="./assets/img/single/Concept Creation.png"
-                                    alt="">
-                            </figure>
-                                <h5 class="fw-bold font-man">Concept Creation</h5>
-                                <div class="my-3">
-                                    <a href="{{ route('concept') }}" class="text-decoration-none link-primary">
-                                        Learn More
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                        </svg>
-                                    </a>
+                                <div class="p-2">
+                                    <h5 class="fw-bold font-man fs-18">Concept Creation</h5>
+                                    <div class="my-2">
+                                        <p>Bring your ideas to life with our innovative concept development services.
+                                            Research, design, and execution.</p>
+                                        <a href="{{ route('concept') }}" class="text-decoration-none link-primary">
+                                            Learn More
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +178,7 @@
                 <div class="row justify-content-md-center align-items-center">
                     <div class="col-md-5">
                         <figure class="bsb-overlay-figure w-100 h-100 m-0" style="--bsb-overlay-figure-opacity: .3">
-                            <img class="img-fluid w-100 h-100 object-fit-cover curved-image-full" loading="lazy"
+                            <img class="img-fluid w-100 h-100 object-fit-cover curved-image-top" loading="lazy"
                                 src="./assets/img/hero/studio.jpg" alt="">
                         </figure>
                     </div>
@@ -247,22 +283,24 @@
             </div>
         </section>
 
-        <div>
-            <div class="row justify-content-md-center" id="clients">
-                <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-                    <h2 class="display-6 mb-0 text-center pb-4 font-lib">Trusted by</h2>
+        <section class="container-fluid">
+            <div>
+                <div class="row justify-content-md-center" id="clients">
+                    <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+                        <h2 class="display-6 mb-0 text-center pb-4 font-lib">Trusted by</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="logos-slider slider mb-4">
-            <div class="slide"><img src="./assets/img/hero/11.png"></div>
-            <div class="slide"><img src="./assets/img/hero/google.png"></div>
-            <div class="slide"><img src="./assets/img/hero/campbells.png"></div>
-            <div class="slide"><img src="./assets/img/hero/ulta-beauty.png"></div>
-            <div class="slide"><img src="./assets/img/hero/lyft.png"></div>
-            <div class="slide"><img src="./assets/img/hero/converse.png"></div>
-            <div class="slide"><img src="./assets/img/hero/ameerah.png"></div>
-        </div>
+            <div class="logos-slider slider mb-4">
+                <div class="slide"><img src="./assets/img/hero/11.png"></div>
+                <div class="slide"><img src="./assets/img/hero/google.png"></div>
+                <div class="slide"><img src="./assets/img/hero/campbells.png"></div>
+                <div class="slide"><img src="./assets/img/hero/ulta-beauty.png"></div>
+                <div class="slide"><img src="./assets/img/hero/lyft.png"></div>
+                <div class="slide"><img src="./assets/img/hero/converse.png"></div>
+                <div class="slide"><img src="./assets/img/hero/ameerah.png"></div>
+            </div>
+        </section>
         @include('includes.get-started')
     </main>
 @endsection
