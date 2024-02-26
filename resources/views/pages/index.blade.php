@@ -28,24 +28,26 @@
                         </figure>
                     </div>
                 </div>
-                <div class="row align-items-center">
-                    <div class="col-md-3">
-                        <h2 class="display-6 mb-0 font-lib text-center mb-3">About Us</h2>
-                        <figure class="bsb-overlay-figure w-100 h-75 m-0" style="--bsb-overlay-figure-opacity: .3">
-                            <img class="img-fluid w-100 h-75 object-fit-cover curved-image-top" loading="lazy"
-                                src="./assets/img/hero/newyork.jpg" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-9">
-                        <p class="text-dark fs-18">Based in New York, the capital of the world, we lead a network from entry to exit and beyond.
-                            Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
-                            tomorrow. We have an extensively written e-book which was masterfully researched and implemented
-                            for 2 years prior to being published to enable to you follow the blueprint mark for mark in your
-                            own e-commerce business as well as a launch planner to facilitate in the days leading up to your
-                            brand launch. Our VIP design day is premeditated and intended for those who need it done ASAP.
-                            Studio XI creates and edits one months worth of content so you can focus on getting and
-                            fulfilling your sales.
-                        </p>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <h2 class="display-6 mb-0 font-lib text-center mb-3">About Us</h2>
+                            <figure class="bsb-overlay-figure w-100 h-75 m-0" style="--bsb-overlay-figure-opacity: .3">
+                                <img class="img-fluid w-100 h-75 object-fit-cover curved-image-top" loading="lazy"
+                                    src="./assets/img/hero/newyork.jpg" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="text-dark fs-18 font-man">Based in New York, the capital of the world, we lead a network from entry to exit and beyond.
+                                Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
+                                tomorrow. We have an extensively written e-book which was masterfully researched and implemented
+                                for 2 years prior to being published to enable to you follow the blueprint mark for mark in your
+                                own e-commerce business as well as a launch planner to facilitate in the days leading up to your
+                                brand launch. Our VIP design day is premeditated and intended for those who need it done ASAP.
+                                Studio XI creates and edits one months worth of content so you can focus on getting and
+                                fulfilling your sales.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -64,8 +64,8 @@
                                 </ul>
                             </div>
                             <div class="address-wrapper">
-                                <address class="mb-2 text-black">New York, United
-                                    States</address>
+                                <p class="mb-2 text-black">New York, United
+                                    States</p>
                                 <p class="mb-2">
                                     <a class="link-dark text-decoration-none" href="tel:+00000000">000000000</a>
                                 </p>
@@ -123,7 +123,7 @@
                                 <div class="col-12 col-sm-6">
                                     <div class="widget">
                                         <h4 class="widget-title mb-4">Our Newsletter</h4>
-                                        <p class="mb-4">Never miss out on our company's latest news, updates, and
+                                        <p class="mb-4 font-man">Never miss out on our company's latest news, updates, and
                                             exclusive offers! Subscribe to our newsletter today and get the inside scoop
                                             delivered straight to your inbox.</p>
                                         <form action="{{ route('newsletter.store') }}" method="post">
@@ -147,7 +147,7 @@
                                                 </div>
                                                 <div class="col-12">
                                                     <div class="d-grid">
-                                                        <button class="btn btn-primary"
+                                                        <button class="btn btn-primary font-man"
                                                             type="submit">Subscribe</button>
                                                     </div>
                                                 </div>
@@ -158,7 +158,7 @@
                             </div>
                             <div class="row mt-3 border-top border-light-subtle">
                                 <div class="footer-copyright-wrapper mt-3">
-                                    &copy; {{ date('Y') }}. All Rights Reserved.
+                                    <p>&copy; {{ date('Y') }}. All Rights Reserved.</p>
                                 </div>
                             </div>
                         </div>
