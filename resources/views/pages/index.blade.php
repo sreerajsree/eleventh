@@ -38,7 +38,7 @@
                             </figure>
                         </div>
                         <div class="col-md-9">
-                            <p class="text-dark fs-18 font-man">Based in New York, the capital of the world, we lead a network from entry to exit and beyond.
+                            <p class="text-dark lead py-3">Based in New York, the capital of the world, we lead a network from entry to exit and beyond.
                                 Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
                                 tomorrow. We have an extensively written e-book which was masterfully researched and implemented
                                 for 2 years prior to being published to enable to you follow the blueprint mark for mark in your
@@ -78,7 +78,7 @@
                                 <div class="p-2">
                                     <h5 class="fw-bold font-man fs-18">Brands For Sale</h5>
                                     <div class="my-2">
-                                        <p>Buy or sell ecommerce stores with our marketplace. Established businesses, proven
+                                        <p class="text-overflow-custom">Buy or sell ecommerce stores with our marketplace. Established businesses, proven
                                             profitability, and due diligence.</p>
                                         <a href="{{ route('branding') }}" class="text-decoration-none link-primary">
                                             Learn More
@@ -104,7 +104,7 @@
                                 <div class="p-2">
                                     <h5 class="fw-bold font-man fs-18">Branding</h5>
                                     <div class="my-2">
-                                        <p>Craft a unique identity for your business with our expert services. Logo, color
+                                        <p class="text-overflow-custom">Craft a unique identity for your business with our expert services. Logo, color
                                             palette, messaging, and more.</p>
                                         <a href="{{ route('branding') }}" class="text-decoration-none link-primary">
                                             Learn More
@@ -130,7 +130,7 @@
                                 <div class="p-2">
                                     <h5 class="fw-bold font-man fs-18">Marketing & Content Creation</h5>
                                     <div class="my-2">
-                                        <p>Boost your online presence with strategic marketing and engaging content. SEO,
+                                        <p class="text-overflow-custom">Boost your online presence with strategic marketing and engaging content. SEO,
                                             social media, email, and more.</p>
                                         <a href="{{ route('marketing') }}" class="text-decoration-none link-primary">
                                             Learn More
@@ -156,7 +156,7 @@
                                 <div class="p-2">
                                     <h5 class="fw-bold font-man fs-18">Concept Creation</h5>
                                     <div class="my-2">
-                                        <p>Bring your ideas to life with our innovative concept development services.
+                                        <p class="text-overflow-custom">Bring your ideas to life with our innovative concept development services.
                                             Research, design, and execution.</p>
                                         <a href="{{ route('concept') }}" class="text-decoration-none link-primary">
                                             Learn More
@@ -180,12 +180,12 @@
                 <div class="row justify-content-md-center align-items-center">
                     <div class="col-md-5">
                         <figure class="bsb-overlay-figure w-100 h-100 m-0" style="--bsb-overlay-figure-opacity: .3">
-                            <img class="img-fluid w-100 h-100 object-fit-cover curved-image-top" loading="lazy"
+                            <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
                                 src="./assets/img/hero/studio.jpg" alt="">
                         </figure>
                     </div>
-                    <div class="col-md-7 curved-image-full" style="background:#FCF3ED">
-                        <div class="text-start py-4 px-3">
+                    <div class="col-md-7">
+                        <div class="text-start py-4 px-3 studio">
                             <h2 class="display-6 mb-0 font-lib">Studio XI</h2>
                             <p class="lead my-3" style="font-weight:500;">
                                 At studio XI we create 30 days worth of content for you in 1

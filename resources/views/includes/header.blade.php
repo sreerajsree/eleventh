@@ -31,13 +31,13 @@
                     <img src="{{ asset('assets/img/branding/logo-main.png') }}" class="bsb-tpl-logo" alt="">
                 </a>
                 <li class="nav-item">
-                    <a class="nav-link">Collaborations</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('contact') }}">Contact US</a>
+                    <a class="nav-link" href="{{ route('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                 </li>
             </ul>
         </div>

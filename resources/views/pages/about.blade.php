@@ -6,11 +6,11 @@
             <div class="container-fluid overflow-hidden">
                 <div class="row">
                     <div class="col-12 col-md-6 order-1 order-md-0 align-self-md-end">
-                        <div class="row py-3 py-sm-5 py-xl-9 bsb-section-mt-md-1 justify-content-sm-center">
+                        <div class="row py-3 py-sm-5 py-xl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
                                 <h1 class="display-4  mb-4 text-black">About Us</h1>
                                 <div class="row">
-                                    <div class="col-12 col-xxl-8">
+                                    <div class="col-12">
                                         <p class="mb-0 text-secondary">Founded by award winning entrepreneur, Ameerah,
                                             who owns a portfolio of multi million dollar e-commerce brands. We bring you a
                                             solution to any and every barrier you may face as a business owner.</p>

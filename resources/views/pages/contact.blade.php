@@ -15,7 +15,7 @@
                             src="./assets/img/contact/contact-img-1.jpg" alt="">
                     </div>
                     <div class="col-12 col-md-6 align-self-md-end">
-                        <div class="row py-3 py-sm-5 py-xxl-9 bsb-section-mt-md-1 justify-content-sm-center">
+                        <div class="row py-3 py-sm-5 py-xxl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
                                 <h2 class="display-6  mb-4">Get in Touch</h2>
                                 <p class="mb-5 text-secondary">We're always on the lookout to work with new clients.

@@ -6,7 +6,7 @@
             <div class="container-fluid overflow-hidden">
                 <div class="row">
                     <div class="col-12 col-md-6 order-1 order-md-0 align-self-md-end">
-                        <div class="row py-3 py-sm-5 py-xl-9 bsb-section-mt-md-1 justify-content-center mx-auto">
+                        <div class="row py-3 py-sm-5 py-xl-9 justify-content-center mx-auto">
                             <div class="col-12">
                                 <div class="card bg-white text-dark mx-auto">
                                     <div class="card-header">{{ __('Login') }}</div>

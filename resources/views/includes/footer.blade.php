@@ -11,7 +11,7 @@
                                         <img src="{{ asset('assets/img/branding/logo-main.png') }}" alt=""
                                             width="80" height="80">
                                     </a>
-                                </div><span class="text-dark">Eleventh Acquire</span>
+                                </div><span class="text-dark fs-8">Eleventh Acquire</span>
                             </div>
                             <div class="mt-3">
                                 <p>Founded by award winning entrepreneur, Ameerah,
@@ -70,7 +70,7 @@
                                     <a class="link-dark text-decoration-none" href="tel:+00000000">000000000</a>
                                 </p>
                                 <p class="mb-0">
-                                    <a class="link-dark text-decoration-none"
+                                    <a class="link-dark text-decoration-underline"
                                         href="mailto:demo@yourdomain.com">contact@eleventhacquire.com</a>
                                 </p>
                             </div>
@@ -85,20 +85,20 @@
                                     <div class="widget">
                                         <h4 class="widget-title mb-4">Services</h4>
                                         <ul class="list-unstyled">
-                                            <li class="mb-3">
+                                            <li class="mb-2">
                                                 <a href="{{ route('brandsforsale') }}"
                                                     class="link-secondary text-decoration-none">Brands For Sale</a>
                                             </li>
-                                            <li class="mb-3">
+                                            <li class="mb-2">
                                                 <a href="{{ route('branding') }}"
                                                     class="link-secondary text-decoration-none">Branding</a>
                                             </li>
-                                            <li class="mb-3">
+                                            <li class="mb-2">
                                                 <a href="{{ route('marketing') }}"
                                                     class="link-secondary text-decoration-none">Marketing & Content
                                                     Creation</a>
                                             </li>
-                                            <li class="mb-3">
+                                            <li class="mb-2">
                                                 <a href="{{ route('concept') }}"
                                                     class="link-secondary text-decoration-none">Concept Creation</a>
                                             </li>
@@ -109,11 +109,11 @@
                                     <div class="widget">
                                         <h4 class="widget-title mb-4">Company</h4>
                                         <ul class="list-unstyled">
-                                            <li class="mb-3">
+                                            <li class="mb-2">
                                                 <a href="{{ route('about') }}"
                                                     class="link-secondary text-decoration-none">About</a>
                                             </li>
-                                            <li class="mb-3">
+                                            <li class="mb-2">
                                                 <a href="{{ route('contact') }}"
                                                     class="link-secondary text-decoration-none">Contact</a>
                                             </li>
@@ -123,7 +123,7 @@
                                 <div class="col-12 col-sm-6">
                                     <div class="widget">
                                         <h4 class="widget-title mb-4">Our Newsletter</h4>
-                                        <p class="mb-4 font-man">Never miss out on our company's latest news, updates, and
+                                        <p class="mb-4">Never miss out on our company's latest news, updates, and
                                             exclusive offers! Subscribe to our newsletter today and get the inside scoop
                                             delivered straight to your inbox.</p>
                                         <form action="{{ route('newsletter.store') }}" method="post">

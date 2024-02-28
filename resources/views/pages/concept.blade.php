@@ -6,7 +6,7 @@
             <div class="container-fluid overflow-hidden">
                 <div class="row">
                     <div class="col-12 col-md-8 order-1 order-md-0 align-self-md-end">
-                        <div class="row py-3 py-sm-5 py-xl-9 bsb-section-mt-md-1 justify-content-sm-center">
+                        <div class="row py-3 py-sm-5 py-xl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
                                 <h1 class="display-4  mb-4 text-black">Concept Creation</h1>
                                 <div class="row">
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-4 p-0">
-                        <figure class="bsb-overlay-figure w-100 m-0" style="--bsb-overlay-figure-opacity: .3; height: 50vh;">
+                        <figure class="bsb-overlay-figure w-100 m-0" style="--bsb-overlay-figure-opacity: .3">
                             <img class="img-fluid w-100  object-fit-cover" loading="lazy"
                                 src="./assets/img/hero/Concept Creation.png" alt="">
                         </figure>
@@ -49,51 +49,47 @@
 
         <section class="bg-primary" data-bs-theme="dark">
             <div class="container-fluid overflow-hidden">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-12 col-md-6 p-0">
                         <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
                             src="./assets/img/hero/bulb.jpg" alt="">
                     </div>
-                    <div class="col-12 col-md-6 align-self-md-end dots">
-                        <div class="row py-3 py-sm-5 py-xxl-5 bsb-section-mt-md-1 justify-content-sm-center">
-                            <div class="col-12 col-sm-10">
-                                <div class="col-12">
-                                    <h2 class="link-white border-black border-start border-10 p-3">Market research and
-                                        analysis to identify customer needs and market opportunities</h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Collaborative
-                                        brainstorming sessions to generate ideas that align with your business objectives
-                                        and brand values</h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Concept refinement
-                                        through prototyping, testing, and feedback gathering</h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Development of a
-                                        detailed product roadmap that outlines the product development process, timeline,
-                                        milestones, and resources required
-                                    </h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">
-                                        Assistance with patent and trademark applications, as needed
-                                    </h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Paid advertising:
-                                        Support in securing funding for product development through grants, loans, or equity
-                                        investments
-                                    </h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Paid advertising:
-                                        Collaboration with manufacturers to ensure product quality, cost-effectiveness, and
-                                        timely delivery
-                                    </h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Paid advertising:
-                                        Development of a go-to-market strategy that includes pricing, distribution, and
-                                        sales channels
-                                    </h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Paid advertising:
-                                        Assistance with product launch planning and execution including PR activities,
-                                        events planning etc.
-                                    </h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Paid advertising:
-                                        Ongoing monitoring of product performance through analytics and feedback gathering
-                                        for continuous improvement
-                                    </h2>
-                                </div>
-                            </div>
+                    <div class="col-12 col-md-6 dots">
+                        <div class="p-5">
+                            <h2 class="link-white border-black border-start border-5 p-3">Market research and
+                                analysis to identify customer needs and market opportunities</h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Collaborative
+                                brainstorming sessions to generate ideas that align with your business objectives
+                                and brand values</h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Concept refinement
+                                through prototyping, testing, and feedback gathering</h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Development of a
+                                detailed product roadmap that outlines the product development process, timeline,
+                                milestones, and resources required
+                            </h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">
+                                Assistance with patent and trademark applications, as needed
+                            </h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Paid advertising:
+                                Support in securing funding for product development through grants, loans, or equity
+                                investments
+                            </h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Paid advertising:
+                                Collaboration with manufacturers to ensure product quality, cost-effectiveness, and
+                                timely delivery
+                            </h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Paid advertising:
+                                Development of a go-to-market strategy that includes pricing, distribution, and
+                                sales channels
+                            </h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Paid advertising:
+                                Assistance with product launch planning and execution including PR activities,
+                                events planning etc.
+                            </h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Paid advertising:
+                                Ongoing monitoring of product performance through analytics and feedback gathering
+                                for continuous improvement
+                            </h2>
                         </div>
                     </div>
                 </div>

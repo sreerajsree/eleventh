@@ -6,7 +6,7 @@
             <div class="container-fluid overflow-hidden">
                 <div class="row">
                     <div class="col-12 col-md-8 order-1 order-md-0 align-self-md-end">
-                        <div class="row py-3 py-sm-5 py-xl-9 bsb-section-mt-md-1 justify-content-sm-center">
+                        <div class="row py-3 py-sm-5 py-xl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
                                 <h1 class="display-4  mb-4 text-black">Branding</h1>
                                 <div class="row">
@@ -19,7 +19,8 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-4 p-0">
-                        <figure class="bsb-overlay-figure w-100  m-0" style="--bsb-overlay-figure-opacity: .3; height: 50vh">
+                        <figure class="bsb-overlay-figure w-100  m-0"
+                            style="--bsb-overlay-figure-opacity: .3">
                             <img class="img-fluid w-100 object-fit-cover" loading="lazy"
                                 src="./assets/img/hero/Branding.png" alt="">
                         </figure>
@@ -29,7 +30,7 @@
         </section>
 
 
-        <section class="py-4 py-xl-8 py-xl-10">
+        <section class="py-4">
             <div class="container">
                 <div class="row justify-content-md-center gy-3 gy-xl-4">
                     <div class="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6 gy-3 gy-xl-4 bsb-entry-content">
@@ -56,40 +57,36 @@
 
         <section class="bg-primary" data-bs-theme="dark">
             <div class="container-fluid overflow-hidden">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-12 col-md-6 p-0">
                         <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
                             src="./assets/img/hero/content.jpg" alt="">
                     </div>
                     <div class="col-12 col-md-6 align-self-md-end dots">
-                        <div class="row py-3 py-sm-5 py-xxl-5 bsb-section-mt-md-1 justify-content-sm-center">
-                            <div class="col-12 col-sm-10">
-                                <h2 class="display-7  mb-4">In addition to design, we offer a range of branding
-                                    services that help you build a strong and cohesive brand. This includes:</h2>
-                                <div class="col-12">
-                                    <h2 class="link-white border-black border-start border-10 p-3">Brand strategy
-                                        development: We'll work with you to define your brand positioning, value
-                                        proposition, and messaging strategy</h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Brand research:
-                                        We'll conduct research to better understand your audience's needs, preferences, and
-                                        pain points.</h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Brand identity
-                                        design: We'll create a logo, color palette, typography, and other
-                                        visual elements that are consistent across all touchpoints.</h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">
-                                        Brand messaging development: We'll help you develop a tone of voice and messaging
-                                        strategy that resonates with your audience and sets you apart from the competition.
-                                    </h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">
-                                        Brand guidelines development: We'll create a set of guidelines that ensure
-                                        consistency across all touchpoints and help you maintain a strong brand over time.
-                                    </h2>
-                                    <h2 class="link-white border-black border-start border-10 p-3">Brand
-                                        implementation: We'll help you implement your new brand across all
-                                        touchpoints, from your website and marketing materials to your products and
-                                        packaging.</h2>
-                                </div>
-                            </div>
+                        <div class="p-5">
+                            <h2 class="display-7  mb-4">In addition to design, we offer a range of branding
+                                services that help you build a strong and cohesive brand. This includes:</h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Brand strategy
+                                development: We'll work with you to define your brand positioning, value
+                                proposition, and messaging strategy</h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Brand research:
+                                We'll conduct research to better understand your audience's needs, preferences, and
+                                pain points.</h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Brand identity
+                                design: We'll create a logo, color palette, typography, and other
+                                visual elements that are consistent across all touchpoints.</h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">
+                                Brand messaging development: We'll help you develop a tone of voice and messaging
+                                strategy that resonates with your audience and sets you apart from the competition.
+                            </h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">
+                                Brand guidelines development: We'll create a set of guidelines that ensure
+                                consistency across all touchpoints and help you maintain a strong brand over time.
+                            </h2>
+                            <h2 class="link-white border-black border-start border-5 p-3">Brand
+                                implementation: We'll help you implement your new brand across all
+                                touchpoints, from your website and marketing materials to your products and
+                                packaging.</h2>
                         </div>
                     </div>
                 </div>
