@@ -66,9 +66,6 @@
                             <div class="address-wrapper">
                                 <p class="mb-2 text-black">New York, United
                                     States</p>
-                                <p class="mb-2">
-                                    <a class="link-dark text-decoration-none" href="tel:+00000000">000000000</a>
-                                </p>
                                 <p class="mb-0">
                                     <a class="link-dark text-decoration-underline"
                                         href="mailto:demo@yourdomain.com">contact@eleventhacquire.com</a>

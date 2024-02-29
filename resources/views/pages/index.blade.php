@@ -175,7 +175,7 @@
             </div>
         </section>
 
-        <section class="py-1">
+        <section class="py-1" id="studio">
             <div class="container mb-5">
                 <div class="row justify-content-md-center align-items-center">
                     <div class="col-md-5">

@@ -29,6 +29,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="{{ asset('assets/controller/palette-bsb.js') }}"></script>
     @stack('scripts')
+    <script>
+        $(document).on('click', function() {
+            $('#navbarSupportedContent').collapse('hide');
+        });
+    </script>
 </body>
 
 </html>

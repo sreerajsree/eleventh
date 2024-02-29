@@ -57,7 +57,7 @@
                             target audience and achieve your marketing goals.</p>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy" src="./assets/img/hero/screen.png"
+                        <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy" src="./assets/img/hero/Shopify Dashboard (2).png"
                             alt="">
                     </div>
                 </div>

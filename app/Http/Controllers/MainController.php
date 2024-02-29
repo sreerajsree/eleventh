@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use App\Models\Brand;
 use App\Models\Newsletter;
 
 class MainController extends Controller
@@ -31,6 +32,16 @@ class MainController extends Controller
         $newsletter->email = $request->email;
         $newsletter->save();
         toastr()->success('You are now subscribed', 'Success');
+        return redirect()->back();
+    }
+
+    public function brandsStore(Request $request){
+        $brand = new Brand();
+        $brand->brand = $request->brand;
+        $brand->name = $request->name;
+        $brand->email = $request->email;
+        $brand->save();
+        toastr()->success('Our Team will get back to you', 'Success');
         return redirect()->back();
     }
 }

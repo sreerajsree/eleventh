@@ -413,11 +413,17 @@ button.slick-next.slick-arrow {
 .btn {
     box-shadow: .25em .25em transparent;
     font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     &:hover {
         box-shadow: .25em .25em #9f7639;
 		transform: translate(.25em, .25em);
         color: #fff;
     }
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
 }
 
 .fs-18 {
@@ -440,6 +446,11 @@ p {
 .b-sale {
     h2 {
         font-size: 24px;
+        font-family: "DM Serif Display", serif;
+    }
+
+    h1 {
+        font-size: 32px;
         font-family: "DM Serif Display", serif;
     }
     h3 {

@@ -26,6 +26,9 @@ Route::view('marketing-and-content-creation', 'pages.marketing')->name('marketin
 Route::get('contact', [MainController::class, 'contact'])->name('contact');
 Route::post('contact', [MainController::class, 'contactStore'])->name('contact.store');
 Route::post('newsletter', [MainController::class, 'newsletterStore'])->name('newsletter.store');
+Route::post('brands', [MainController::class, 'brandsStore'])->name('brands.store');
+Route::view('brands-for-sale/ecommerce-phone-cases', 'pages.sale.ecommercePhone')->name('ecommercePhone');
+Route::view('brands-for-sale/ecommerce-clothing', 'pages.sale.ecommerceClothing')->name('ecommerceClothing');
 
 
 Route::group(['prefix' => 'admin'], function () {
