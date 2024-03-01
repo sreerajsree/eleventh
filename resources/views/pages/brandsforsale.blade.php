@@ -8,21 +8,17 @@
                     <div class="col-12 col-md-8 order-1 order-md-0 align-self-md-end">
                         <div class="row py-3 py-sm-5 py-xl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
-                                <h1 class="display-4 mb-4 text-black">Brands for Sale</h1>
-                                <div class="row">
-                                    <div class="col-12 col-xxl-8">
-                                        <p class="mb-0 text-secondary">Buy or sell ecommerce stores with our
-                                            marketplace. Established businesses, proven profitability, and due diligence.
-                                        </p>
-                                    </div>
-                                </div>
+                                <h1 class="display-4 mb-4 text-light">Brands for Sale</h1>
+                                <p class="mb-0 text-secondary">Buy or sell ecommerce stores with our
+                                    marketplace. Established businesses, proven profitability, and due diligence.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 p-0">
                         <figure class="bsb-overlay-figure w-100  m-0" style="--bsb-overlay-figure-opacity: .3">
                             <img class="img-fluid w-100 object-fit-contain" loading="lazy"
-                                src="./assets/img/hero/Brands For Sale.png" alt="">
+                                src="{{ asset('assets/img/hero/Brands For Sale.png') }}" alt="">
                         </figure>
                     </div>
                 </div>
@@ -35,7 +31,7 @@
                 <div class="card b-sale card-rounded">
                     <div class="row align-items-center">
                         <div class="col-md-3">
-                            <img class="card-image card-rounded" loading="lazy" src="./assets/img/hero/Eleven.png"
+                            <img class="card-image card-rounded" loading="lazy" src="{{ asset('assets/img/hero/Eleven.png') }}"
                                 alt="">
                         </div>
                         <div class="col-md-7">
@@ -61,7 +57,7 @@
                 <div class="card mt-3 b-sale card-rounded">
                     <div class="row align-items-center">
                         <div class="col-md-3">
-                            <img class="card-image card-rounded" loading="lazy" src="./assets/img/hero/Elemnt.png"
+                            <img class="card-image card-rounded" loading="lazy" src="{{ asset('assets/img/hero/Elemnt.png') }}"
                                 alt="">
                         </div>
                         <div class="col-md-7">
@@ -95,7 +91,7 @@
                         <p class="lead">If you have any brand you want to list for sale on our website, please get in
                             touch with us.</p>
                         <p class="text-center"><a href="{{ route('contact') }}" class="btn"
-                                style="background:#D58E22; border-radius:10px; color:#fff; text-align:center; padding:10px 20px;">Get
+                                style="background:#0e3e30; border-radius:10px; color:#fff; text-align:center; padding:10px 20px;">Get
                                 in
                                 Touch</a></p>
                     </div>

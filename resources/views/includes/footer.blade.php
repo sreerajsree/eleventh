@@ -67,7 +67,7 @@
                                 <p class="mb-2 text-black">New York, United
                                     States</p>
                                 <p class="mb-0">
-                                    <a class="link-dark text-decoration-underline"
+                                    <a class="link-dark text-decoration-underline link-offset-2"
                                         href="mailto:demo@yourdomain.com">contact@eleventhacquire.com</a>
                                 </p>
                             </div>
@@ -80,47 +80,47 @@
                             <div class="row gy-4 gy-sm-0">
                                 <div class="col-6 col-sm-3">
                                     <div class="widget">
-                                        <h4 class="widget-title mb-4">Services</h4>
+                                        <h4 class="widget-title mb-4 text-light">Services</h4>
                                         <ul class="list-unstyled">
                                             <li class="mb-2">
                                                 <a href="{{ route('brandsforsale') }}"
-                                                    class="link-secondary text-decoration-none">Brands For Sale</a>
+                                                    class="link-light text-decoration-none">Brands For Sale</a>
                                             </li>
                                             <li class="mb-2">
                                                 <a href="{{ route('branding') }}"
-                                                    class="link-secondary text-decoration-none">Branding</a>
+                                                    class="link-light text-decoration-none">Branding</a>
                                             </li>
                                             <li class="mb-2">
                                                 <a href="{{ route('marketing') }}"
-                                                    class="link-secondary text-decoration-none">Marketing & Content
+                                                    class="link-light text-decoration-none">Marketing & Content
                                                     Creation</a>
                                             </li>
                                             <li class="mb-2">
                                                 <a href="{{ route('concept') }}"
-                                                    class="link-secondary text-decoration-none">Concept Creation</a>
+                                                    class="link-light text-decoration-none">Concept Creation</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-6 col-sm-3">
                                     <div class="widget">
-                                        <h4 class="widget-title mb-4">Company</h4>
+                                        <h4 class="widget-title mb-4 text-light">Company</h4>
                                         <ul class="list-unstyled">
                                             <li class="mb-2">
                                                 <a href="{{ route('about') }}"
-                                                    class="link-secondary text-decoration-none">About</a>
+                                                    class="link-light text-decoration-none">About</a>
                                             </li>
                                             <li class="mb-2">
                                                 <a href="{{ route('contact') }}"
-                                                    class="link-secondary text-decoration-none">Contact</a>
+                                                    class="link-light text-decoration-none">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="widget">
-                                        <h4 class="widget-title mb-4">Our Newsletter</h4>
-                                        <p class="mb-4">Never miss out on our company's latest news, updates, and
+                                        <h4 class="widget-title mb-4 text-light">Our Newsletter</h4>
+                                        <p class="mb-4 text-light">Never miss out on our company's latest news, updates, and
                                             exclusive offers! Subscribe to our newsletter today and get the inside scoop
                                             delivered straight to your inbox.</p>
                                         <form action="{{ route('newsletter.store') }}" method="post">
@@ -141,10 +141,8 @@
                                                             placeholder="Email Address" aria-label="email-newsletter"
                                                             aria-describedby="email-newsletter-addon" required>
                                                     </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <div class="d-grid">
-                                                        <button class="btn btn-primary font-man"
+                                                    <div class="d-grid mt-2">
+                                                        <button class="btn btn-dark font-man"
                                                             type="submit">Subscribe</button>
                                                     </div>
                                                 </div>
@@ -155,7 +153,7 @@
                             </div>
                             <div class="row mt-3 border-top border-light-subtle">
                                 <div class="footer-copyright-wrapper mt-3">
-                                    <p>&copy; {{ date('Y') }}. All Rights Reserved.</p>
+                                    <p class="text-light">&copy; {{ date('Y') }}. All Rights Reserved.</p>
                                 </div>
                             </div>
                         </div>

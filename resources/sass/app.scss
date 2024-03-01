@@ -133,7 +133,7 @@
 .sdtestBg3 {
     height: 100%;
     width: 80%;
-    background: #fff;
+    background: #eee;
     position: absolute;
     bottom: -40px;
     left: 10%;
@@ -144,7 +144,7 @@
 .sdtestBg2 {
     height: 100%;
     width: 90%;
-    background: #fff;
+    background: #eee;
     position: absolute;
     bottom: -22px;
     left: 5%;
@@ -159,10 +159,14 @@
     overflow: auto;
 }
 
+.text-primary {
+    color: #0e3e30 !important;
+}
+
 .slideshow {
     position: relative;
     height: auto;
-    background: #fff;
+    background: #eee;
     box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
     border-radius: 20px;
     background-image: url(https://img.icons8.com/glyph-neue/64/quote-left.png),
@@ -215,7 +219,7 @@ button.slick-next.slick-arrow {
 }
 .sdCustomSliderHeadig {
     font-family: "Montserrat", sans-serif;
-    color: #94a2b3;
+    color: #474c52;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.6em;
@@ -241,7 +245,7 @@ button.slick-next.slick-arrow {
 
 .studio {
     position: relative;
-    background:#FCF3ED;
+    background: #e7eaec;
     margin-left: -100px;
     @media only screen and (max-width: 600px) {
         margin-left: 0;
@@ -270,7 +274,7 @@ button.slick-next.slick-arrow {
 }
 .SdClientDesc {
     text-align: center;
-    color: #d58e22;
+    color: #0e3e30;
     font-size: 18px;
     line-height: 1.4em;
     margin: 10px 0;
@@ -320,14 +324,14 @@ button.slick-next.slick-arrow {
         transform: rotateX(180deg);
         background-color: #fff;
         svg {
-            fill: #d58e22;
+            fill: #0e3e30;
         }
     }
 }
 
 .foot-back {
-    background-color: #fcf3ed;
-    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-color: #0e3e30;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.28'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 .text-3-lines {
@@ -373,27 +377,27 @@ button.slick-next.slick-arrow {
 }
 
 .navbar-brand img {
-  width: 80px;
+    width: 80px;
 }
 .navbar-nav {
-  align-items: center;
+    align-items: center;
 }
 .navbar .navbar-nav .nav-link {
-  color: #000;
-  font-size: 12px;
-  padding: 0.5em 1em;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 0.5em 1em;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .navbar-brand img {
-    width: 100px;
-  }
-  .navbar-brand {
-    margin-right: 0;
-    padding: 0 1em;
-  }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar-brand {
+        margin-right: 0;
+        padding: 0 1em;
+    }
 }
 
 .card-image {
@@ -411,12 +415,12 @@ button.slick-next.slick-arrow {
 }
 
 .btn {
-    box-shadow: .25em .25em transparent;
+    box-shadow: 0.25em 0.25em transparent;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     &:hover {
-        box-shadow: .25em .25em #9f7639;
-		transform: translate(.25em, .25em);
+        box-shadow: 0.25em 0.25em #107c5e;
+        transform: translate(0.25em, 0.25em);
         color: #fff;
     }
 }
@@ -435,6 +439,7 @@ button.slick-next.slick-arrow {
         font-size: 15px;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
+        color: #eee;
     }
 }
 
@@ -460,5 +465,49 @@ p {
     a {
         font-family: "Montserrat", sans-serif;
         margin-top: 20px;
+    }
+}
+
+.bg-video-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    @media only screen and (max-width: 600px) {
+        height: 50vh;
+    }
+    background: url(//static.showit.co/1200/cdw081gWThyiPxQCIWhvtw/65041/saffron-avenue-brand-design-showit-website-templates-048.jpg)
+        no-repeat center center/cover;
+}
+video {
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+}
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.7) 50%);
+    background-size: 3px 3px;
+    z-index: 2;
+}
+.main-h1 {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 3;
+    max-width: 50%;
+    width: 100%;
+    height: 50px;
+    @media only screen and (max-width: 600px) {
+        max-width: 90%;
     }
 }
