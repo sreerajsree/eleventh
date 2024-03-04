@@ -35,8 +35,8 @@
                                         </div>
                                         <div class="col-12 col-md-6">
                                             <label for="fullname" class="form-label">Company Name</label>
-                                            <input type="text" class="form-control" id="company_name"
-                                                name="company_name" required>
+                                            <input type="text" class="form-control" id="company_name" name="company_name"
+                                                required>
                                         </div>
                                         <div class="col-12 col-md-6">
                                             <label for="fullname" class="form-label">Company Website</label>

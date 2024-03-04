@@ -255,7 +255,7 @@ button.slick-next.slick-arrow {
 .text-overflow-custom {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
 }
 
@@ -330,8 +330,7 @@ button.slick-next.slick-arrow {
 }
 
 .foot-back {
-    background-color: #0e3e30;
-    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.28'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-color: #000;
 }
 
 .text-3-lines {
@@ -418,6 +417,8 @@ button.slick-next.slick-arrow {
     box-shadow: 0.25em 0.25em transparent;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
     &:hover {
         box-shadow: 0.25em 0.25em #107c5e;
         transform: translate(0.25em, 0.25em);
@@ -431,12 +432,12 @@ button.slick-next.slick-arrow {
 }
 
 .fs-18 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .dots {
     h2 {
-        font-size: 15px;
+        font-size: 14px;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
         color: #eee;
@@ -445,7 +446,7 @@ button.slick-next.slick-arrow {
 
 p {
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .b-sale {
@@ -472,18 +473,53 @@ p {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     @media only screen and (max-width: 600px) {
-        height: 50vh;
+        height: 70vh;
     }
     background: url(//static.showit.co/1200/cdw081gWThyiPxQCIWhvtw/65041/saffron-avenue-brand-design-showit-website-templates-048.jpg)
         no-repeat center center/cover;
 }
+
+.se-line {
+    stroke: rgba(255, 255, 255, 1);
+    transform: scaleX(-1);
+    padding: 0.5px;
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.studio-img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    @media only screen and (max-width: 600px) {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+.w-fifty {
+    width: 50%;
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+    }
+}
+
 video {
     min-width: 100%;
     min-height: 100vh;
     z-index: 1;
 }
+
+.card-height {
+    height: 400px;
+    @media only screen and (max-width: 600px) {
+        height: auto;;
+    }
+}
+
 .overlay {
     width: 100%;
     height: 100vh;
@@ -494,6 +530,7 @@ video {
     background-size: 3px 3px;
     z-index: 2;
 }
+
 .main-h1 {
     text-align: center;
     color: #fff;
@@ -504,9 +541,9 @@ video {
     right: 0;
     margin: auto;
     z-index: 3;
-    max-width: 50%;
+    max-width: 70%;
     width: 100%;
-    height: 50px;
+    height: 30%;
     @media only screen and (max-width: 600px) {
         max-width: 90%;
     }

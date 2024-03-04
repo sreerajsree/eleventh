@@ -138,7 +138,7 @@
         <section class="py-4">
             <div class="container">
                 <div class="row justify-content-md-center gy-3 gy-xl-4">
-                    <div class="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6 gy-3 gy-xl-4 bsb-entry-content">
+                    <div class="col-12 col-md-11 col-lg-8 gy-3 gy-xl-4 bsb-entry-content">
                         <p class="lead">At our marketing and content creation service, we believe that effective
                             marketing is about more than just tactics; it's about strategy, creativity, and execution.
                             That's why we offer a comprehensive service that combines all three to help you achieve your

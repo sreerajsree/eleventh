@@ -25,7 +25,7 @@
                     <div class="col-md-9">
                         <div class="p-2">
                             <h2 class="display-6 mb-0 font-lib mb-3 text-light">About Us</h2>
-                            <p class="text-secondary lead py-3">Based in New York, the capital of the world, we lead a
+                            <p class="text-secondary lead">Based in New York, the capital of the world, we lead a
                                 network
                                 from entry to exit and beyond.
                                 Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
@@ -47,122 +47,86 @@
             </div>
         </section>
 
-        <section class="py-4 bg-black">
-            <div class="container mb-5">
-                <div class="row justify-content-md-center">
-                    <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-                        <h2 class="display-6 mb-0 font-lib text-white">Our Services</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container overflow-hidden">
-                <div class="row gy-4 gy-md-0 gx-xxl-5">
-                    <div class="col-12 col-md-3">
-                        <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3 bg-dark">
-                            <div class="text-left">
-                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center m-0"
-                                    style="--bsb-overlay-figure-opacity: .3">
-                                    <img class="img-fluid" loading="lazy" src="./assets/img/single/Brands For Sale.png"
-                                        alt="">
-                                </figure>
-                                <div class="p-2 text-white">
-                                    <h5 class="fw-bold font-man fs-18">Brands For Sale</h5>
-                                    <div class="my-2">
-                                        <p class="text-overflow-custom">Buy or sell ecommerce stores with our marketplace.
-                                            Established businesses, proven
-                                            profitability, and due diligence.</p>
-                                        <a href="{{ route('branding') }}" class="text-decoration-none link-light">
-                                            Learn More
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd"
-                                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
+        <section class="bg-black">
+            <div class="container-fluid">
+                <div class="card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
+                    style="background-image: url('{{ asset('assets/img/hero/girl.jpg') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
+                    <div class="card-body container text-white">
+                        <h2 class="display-6 mb-0 font-lib text-center pb-4">Services</h2>
+                        <div class="row align-items-center card-height justify-content-center">
+                            <div class="col-md-2">
+                                <h5 class="text-uppercase"><a href="{{ route('brandsforsale') }}"
+                                        class="text-light text-decoration-none fs-18 fw-bold">Brands For Sale</a></h5>
+                                <p class="text-overflow-custom">Buy or sell ecommerce stores with our marketplace.
+                                    Established businesses, proven
+                                    profitability, and due diligence.</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
-                            <div class="text-left">
-                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center m-0"
-                                    style="--bsb-overlay-figure-opacity: .3">
-                                    <img class="img-fluid" loading="lazy" src="./assets/img/single/Branding.png"
-                                        alt="">
-                                </figure>
-                                <div class="p-2 text-white">
-                                    <h5 class="fw-bold font-man fs-18">Branding</h5>
-                                    <div class="my-2">
-                                        <p class="text-overflow-custom">Craft a unique identity for your business with our
-                                            expert services. Logo, color
-                                            palette, messaging, and more.</p>
-                                        <a href="{{ route('branding') }}" class="text-decoration-none link-light">
-                                            Learn More
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd"
-                                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
+                            <svg class="se-line" style="width: 36.05px; height: 144.57px;">
+                                <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
+                                    data-d-rotatedwidth="36.05" data-d-rotatedheight="144.57" data-d-widthoffset="56.98"
+                                    data-d-heightoffset="72.29" data-d-isround="true" data-d-rotation="76"
+                                    data-d-roundedsolid="true" data-d-dotted="false" data-d-length="150"
+                                    data-d-mirrorline="true" data-d-dashwidth="21" data-d-spacing="15"
+                                    data-d-dasharrayvalue="none" data-m-strokelinecap="round" data-m-linestyle="solid"
+                                    data-m-thickness="1" data-m-rotatedwidth="56" data-m-rotatedheight="96.99"
+                                    data-m-widthoffset="28.5" data-m-heightoffset="48.5" data-m-isround="true"
+                                    data-m-rotation="60" data-m-roundedsolid="true" data-m-dotted="false"
+                                    data-m-length="113" data-m-mirrorline="true" data-m-dashwidth="21" data-m-spacing="15"
+                                    data-m-dasharrayvalue="none" x1="0" y1="0" x2="100%" y2="100%"
+                                    style="stroke-width: 1px; stroke-dasharray: 0px;">
+                                </line>
+                            </svg>
+                            <div class="col-md-2">
+                                <h5 class="text-uppercase"><a href="{{ route('branding') }}"
+                                        class="text-light text-decoration-none fs-18 fw-bold">Branding</a></h5>
+                                <p class="text-overflow-custom">Craft a unique identity for your business with our
+                                    expert services. Logo, color
+                                    palette, messaging, and more.</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
-                            <div class="text-left">
-                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center m-0"
-                                    style="--bsb-overlay-figure-opacity: .3">
-                                    <img class="img-fluid" loading="lazy"
-                                        src="./assets/img/single/Marketing & Content Creation.png" alt="">
-                                </figure>
-                                <div class="p-2 text-white">
-                                    <h5 class="fw-bold font-man fs-18">Marketing & Content Creation</h5>
-                                    <div class="my-2">
-                                        <p class="text-overflow-custom">Boost your online presence with strategic marketing
-                                            and engaging content. SEO,
-                                            social media, email, and more.</p>
-                                        <a href="{{ route('marketing') }}" class="text-decoration-none link-light">
-                                            Learn More
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd"
-                                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
+                            <svg class="se-line" style="width: 36.05px; height: 144.57px;">
+                                <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
+                                    data-d-rotatedwidth="36.05" data-d-rotatedheight="144.57" data-d-widthoffset="56.98"
+                                    data-d-heightoffset="72.29" data-d-isround="true" data-d-rotation="76"
+                                    data-d-roundedsolid="true" data-d-dotted="false" data-d-length="150"
+                                    data-d-mirrorline="true" data-d-dashwidth="21" data-d-spacing="15"
+                                    data-d-dasharrayvalue="none" data-m-strokelinecap="round" data-m-linestyle="solid"
+                                    data-m-thickness="1" data-m-rotatedwidth="56" data-m-rotatedheight="96.99"
+                                    data-m-widthoffset="28.5" data-m-heightoffset="48.5" data-m-isround="true"
+                                    data-m-rotation="60" data-m-roundedsolid="true" data-m-dotted="false"
+                                    data-m-length="113" data-m-mirrorline="true" data-m-dashwidth="21"
+                                    data-m-spacing="15" data-m-dasharrayvalue="none" x1="0" y1="0"
+                                    x2="100%" y2="100%" style="stroke-width: 1px; stroke-dasharray: 0px;">
+                                </line>
+                            </svg>
+                            <div class="col-md-2">
+                                <h5 class="text-uppercase"><a href="{{ route('marketing') }}"
+                                        class="text-light text-decoration-none fs-18 fw-bold">Marketing & Content
+                                        Creation</a></h5>
+                                <p class="text-overflow-custom">Boost your online presence with strategic marketing
+                                    and engaging content. SEO,
+                                    social media, email, and more.</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="card bsb-tpl-bg-lotion bsb-tpl-border-lg-cyan mb-3">
-                            <div class="text-left">
-                                <figure class="zoom-img bsb-overlay-figure d-flex justify-content-center m-0"
-                                    style="--bsb-overlay-figure-opacity: .3">
-                                    <img class="img-fluid" loading="lazy" src="./assets/img/single/Concept Creation.png"
-                                        alt="">
-                                </figure>
-                                <div class="p-2 text-white">
-                                    <h5 class="fw-bold font-man fs-18">Concept Creation</h5>
-                                    <div class="my-2">
-                                        <p class="text-overflow-custom">Bring your ideas to life with our innovative
-                                            concept development services.
-                                            Research, design, and execution.</p>
-                                        <a href="{{ route('concept') }}" class="text-decoration-none link-light">
-                                            Learn More
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd"
-                                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
+                            <svg class="se-line" style="width: 36.05px; height: 144.57px;">
+                                <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
+                                    data-d-rotatedwidth="36.05" data-d-rotatedheight="144.57" data-d-widthoffset="56.98"
+                                    data-d-heightoffset="72.29" data-d-isround="true" data-d-rotation="76"
+                                    data-d-roundedsolid="true" data-d-dotted="false" data-d-length="150"
+                                    data-d-mirrorline="true" data-d-dashwidth="21" data-d-spacing="15"
+                                    data-d-dasharrayvalue="none" data-m-strokelinecap="round" data-m-linestyle="solid"
+                                    data-m-thickness="1" data-m-rotatedwidth="56" data-m-rotatedheight="96.99"
+                                    data-m-widthoffset="28.5" data-m-heightoffset="48.5" data-m-isround="true"
+                                    data-m-rotation="60" data-m-roundedsolid="true" data-m-dotted="false"
+                                    data-m-length="113" data-m-mirrorline="true" data-m-dashwidth="21"
+                                    data-m-spacing="15" data-m-dasharrayvalue="none" x1="0" y1="0"
+                                    x2="100%" y2="100%" style="stroke-width: 1px; stroke-dasharray: 0px;">
+                                </line>
+                            </svg>
+                            <div class="col-md-2">
+                                <h5 class="text-uppercase"><a href="{{ route('concept') }}"
+                                        class="text-light text-decoration-none fs-18 fw-bold">Concept Creation</a></h5>
+                                <p class="text-overflow-custom">Bring your ideas to life with our innovative
+                                    concept development services.
+                                    Research, design, and execution.</p>
                             </div>
                         </div>
                     </div>
@@ -170,39 +134,40 @@
             </div>
         </section>
 
-        <section class="py-1 my-3" id="studio">
-            <div class="container mb-5">
-                <div class="row justify-content-md-center align-items-center">
-                    <div class="col-md-5">
-                        <figure class="bsb-overlay-figure w-100 h-100 m-0" style="--bsb-overlay-figure-opacity: .3">
-                            <img class="img-fluid w-100 h-100 object-fit-cover shadow-lg" loading="lazy"
-                                src="./assets/img/hero/studio.jpg" alt="">
-                        </figure>
+        <section class="py-5" style="background-color: #D2C9BF" id="studio">
+            <div class="row align-items-center p-0 m-0">
+                <div class="col-md-2 p-0">
+                    <img class="img-fluid studio-img"
+                        src="https://static.showit.co/800/uTwEf1yeQ9K4UGgps1g6uw/65041/saffron-avenue-brand-design-showit-website-templates-101.jpg"
+                        alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="text-center w-fifty mx-auto py-3">
+                        <h2 class="display-6 mb-0 font-lib">Studio XI</h2>
+                        <p class="fs-6 font-man my-3 text-primary" style="font-weight:500;">
+                            At studio XI we create 30 days worth of content for you in 1
+                            hour. We have monthly and annual packages available to help you maximize your sales so we
+                            can
+                            take the weight off your shoulders and you can focus on what’s important.
+                        </p>
+                        <p class="lead mb-4">
+                            Simply bring or send in your products for your allocation to our studio in NYC and leave the
+                            magic to us. We can also create campaigns and provide voiceovers. “Creativity is inventing,
+                            experimenting, growing, taking risks, breaking rules, making mistakes, and having fun.”
+                        </p>
+                        <a target="_blank" href="https://calendly.com/xiacquire"
+                            class="underline text-black text-uppercase fw-bold">Book Now</a>
                     </div>
-                    <div class="col-md-7">
-                        <div class="text-start py-3 px-3 studio shadow-lg">
-                            <h2 class="display-6 mb-0 font-lib">Studio XI</h2>
-                            <p class="fs-8 font-man my-3 text-primary" style="font-weight:500;">
-                                At studio XI we create 30 days worth of content for you in 1
-                                hour. We have monthly and annual packages available to help you maximize your sales so we
-                                can
-                                take the weight off your shoulders and you can focus on what’s important.
-                            </p>
-                            <p class="lead">
-                                Simply bring or send in your products for your allocation to our studio in NYC and leave the
-                                magic to us. We can also create campaigns and provide voiceovers. “Creativity is inventing,
-                                experimenting, growing, taking risks, breaking rules, making mistakes, and having fun.”
-                            </p>
-                            <a target="_blank" href="https://calendly.com/xiacquire" class="btn mt-4"
-                                style="background:#0e3e30; color:#fff; text-align:center; padding:10px 20px;">Book
-                                Now</a>
-                        </div>
-                    </div>
+                </div>
+                <div class="col-md-2 p-0">
+                    <img class="img-fluid studio-img"
+                        src="https://static.showit.co/file/tmy2tslvS9-if8379Y8rfg/65041/videotogif_gif_6.gif"
+                        alt="">
                 </div>
             </div>
         </section>
         <section class="container-fluid" style="margin-bottom: 120px">
-            <h2 class="display-6 mb-0 text-center pb-4 font-lib">Testimonial</h2>
+            <h2 class="display-6 py-3 text-center font-lib">Testimonial</h2>
             <div class="sd_master_wrapper">
                 <div class="sdtestBg2"></div>
                 <div class="sdtestBg3"></div>

@@ -142,7 +142,7 @@
                                                             aria-describedby="email-newsletter-addon" required>
                                                     </div>
                                                     <div class="d-grid mt-2">
-                                                        <button class="btn btn-dark font-man"
+                                                        <button class="btn btn-primary"
                                                             type="submit">Subscribe</button>
                                                     </div>
                                                 </div>

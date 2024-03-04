@@ -29,7 +29,7 @@
         <section class="py-4">
             <div class="container">
                 <div class="row justify-content-md-center gy-3 gy-xl-4">
-                    <div class="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6 gy-3 gy-xl-4 bsb-entry-content">
+                    <div class="col-12 col-md-11 col-lg-8 gy-3 gy-xl-4 bsb-entry-content">
                         <p class="lead">At our branding service, we understand that a strong brand is the foundation
                             of any successful business. It's more than just a logo or a name; it's a promise to your
                             customers that they can expect a certain level of quality, service, and experience. That's why
@@ -91,7 +91,7 @@
         <section class="py-4 ">
             <div class="container">
                 <div class="row justify-content-md-center gy-3 gy-xl-4">
-                    <div class="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6 gy-3 gy-xl-4 bsb-entry-content">
+                    <div class="col-12 col-md-11 col-lg-8 gy-3 gy-xl-4 bsb-entry-content">
                         <p class="lead">At our branding service, we believe that a strong brand is the key to
                             success in today's competitive marketplace. That's why we offer a comprehensive service that
                             goes beyond just design to help you build a powerful and memorable brand. Contact us today to

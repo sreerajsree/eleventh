@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md bg-primary">
+<nav class="navbar navbar-expand-md bg-black">
     <div class="container-fluid">
         <a class="navbar-brand d-md-none" href="/">
             <img src="{{ asset('assets/img/branding/logo.png') }}" class="bsb-tpl-logo" alt="">
@@ -12,19 +12,8 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ route('services') }}" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Services
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('services') }}">All Services</a></li>
-                        <li><a class="dropdown-item" href="{{ route('brandsforsale') }}">Brands For Sale</a></li>
-                        <li><a class="dropdown-item" href="{{ route('branding') }}">Branding</a></li>
-                        <li><a class="dropdown-item" href="{{ route('marketing') }}">Marketing & Content Creation</a>
-                        </li>
-                        <li><a class="dropdown-item" href="{{ route('concept') }}">Concept Creation</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ route('services') }}">Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/#clients">Clients</a>

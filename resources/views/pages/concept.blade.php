@@ -28,7 +28,7 @@
         <section class="py-4">
             <div class="container">
                 <div class="row justify-content-md-center gy-3 gy-xl-4">
-                    <div class="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6 gy-3 gy-xl-4 bsb-entry-content">
+                    <div class="col-12 col-md-11 col-lg-8 gy-3 gy-xl-4 bsb-entry-content">
                         <p class="lead">As a business owner, concept creation is a crucial step in starting or growing
                             your business. Our service in concept creation involves working closely with you to understand
                             your target audience, market trends, and competitive landscape. We then brainstorm and refine
