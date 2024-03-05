@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Route::view('about', 'pages.about')->name('about');
 Route::view('services', 'pages.services')->name('services');
+Route::view('vip', 'pages.vip')->name('vip');
 Route::get('contact', [MainController::class, 'contact'])->name('contact');
 Route::post('contact', [MainController::class, 'contactStore'])->name('contact.store');
 Route::post('newsletter', [MainController::class, 'newsletterStore'])->name('newsletter.store');

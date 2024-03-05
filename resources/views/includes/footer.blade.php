@@ -99,6 +99,10 @@
                                                 <a href="{{ route('concept') }}"
                                                     class="link-light text-decoration-none">Concept Creation</a>
                                             </li>
+                                            <li class="mb-2">
+                                                <a href="{{ route('vip') }}"
+                                                    class="link-light text-decoration-none">VIP</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

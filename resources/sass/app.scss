@@ -443,6 +443,21 @@ button.slick-next.slick-arrow {
         color: #eee;
     }
 }
+.font-mont {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.img-height {
+    width: 305px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+    @media only screen and (max-width: 600px) {
+       width: 100%;
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+}
 
 p {
     font-family: "Montserrat", sans-serif;

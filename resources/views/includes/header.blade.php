@@ -22,7 +22,7 @@
                     <img src="{{ asset('assets/img/branding/logo.png') }}" class="bsb-tpl-logo" alt="">
                 </a>
                 <li class="nav-item">
-                    <a class="nav-link" href="/#studio">Studio XI</a>
+                    <a class="nav-link" href="{{ route('vip') }}">VIP</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('about') }}">About</a>
