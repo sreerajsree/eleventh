@@ -20,10 +20,10 @@ class MainController extends Controller
         $contact->company_email = $request->company_email;
         $contact->company_name = $request->company_name;
         $contact->company_website = $request->company_website;
-        $contact->budget = $request->budget;
+        $contact->service = $request->service;
         $contact->message = $request->message;
         $contact->save();
-        toastr()->success('The Team will get back to you', 'Success');
+        toastr()->success('Our Team will get back to you', 'Success');
         return redirect()->back();
     }
 

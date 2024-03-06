@@ -48,10 +48,10 @@
         </section>
 
         <section class="bg-black">
-            <div class="container-fluid">
+            <div class="">
                 <div class="card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
                     style="background-image: url('{{ asset('assets/img/hero/girl.jpg') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
-                    <div class="card-body container text-white">
+                    <div class="card-body text-white">
                         <h2 class="display-6 mb-0 font-lib text-center pb-4">Services</h2>
                         <div class="row align-items-center card-height justify-content-center">
                             <div class="col-md-2">

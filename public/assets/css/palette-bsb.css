@@ -2901,14 +2901,15 @@ textarea.form-control-lg {
     background-size: 16px 12px;
     border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: var(--bs-border-radius);
-    color: var(--bs-body-color);
+    color: #000;
     display: block;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     padding: .375rem 2.25rem .375rem .75rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    width: 100%
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
 }
 
 @media(prefers-reduced-motion:reduce) {

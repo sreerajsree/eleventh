@@ -2,7 +2,7 @@
 
 @section('content')
     <main id="main">
-        <section class="bg-primary" data-bs-theme="dark">
+        <section class="bg-primary">
             <div class="container-fluid overflow-hidden">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6 p-0">
@@ -43,16 +43,16 @@
                                             <input type="text" class="form-control" id="company_website"
                                                 name="company_website">
                                         </div>
-                                        {{-- <div class="col-12">
-                                            <label for="budget" class="form-label">What is your annual influencer
-                                                marketing budget?</label>
-                                            <select name="budget" id="budget" class="form-control">
-                                                <option value="Select one" selected disabled></option>
-                                                <option value="100">$100 - $500</option>
-                                                <option value="500">$500 - $1000</option>
-                                                <option value="100">$1000 - $5000</option>
+                                        <div class="col-12">
+                                            <label for="service" class="form-label">Select Service</label>
+                                            <select name="service" id="service" class="form-select" aria-label="Default select example">
+                                                <option value="" selected disabled>-----Select-----</option>
+                                                <option value="Brands for Sale">Brands for Sale</option>
+                                                <option value="Branding">Branding</option>
+                                                <option value="Marketing & Content Creation">Marketing & Content Creation</option>
+                                                <option value="Concept Creation">Concept Creation</option>
                                             </select>
-                                        </div> --}}
+                                        </div>
                                         <div class="col-12">
                                             <label for="message" class="form-label">Message (optional)</label>
                                             <textarea class="form-control" id="message" name="message" rows="4"></textarea>
