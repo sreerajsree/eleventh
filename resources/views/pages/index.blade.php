@@ -67,11 +67,11 @@
                 <div class="card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
                     style="background-image: url('{{ asset('assets/img/hero/ameerah2.png') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
                     <div class="card-body text-white">
-                        <h2 class="display-6 mb-0 font-lib text-center pb-4">Services</h2>
+                        <h2 class="display-6 mb-0 font-lib text-center pt-10 pb-4">Services</h2>
                         <div class="row align-items-center card-height justify-content-center">
                             <div class="col-md-2">
-                                <h5 class="text-uppercase"><a href="{{ route('brandsforsale') }}"
-                                        class="text-light text-decoration-none fs-18 fw-bold">Brands For Sale</a></h5>
+                                <p class="text-uppercase mb-1"><a href="{{ route('brandsforsale') }}"
+                                        class="text-light text-decoration-none fw-bold">Brands For Sale</a></p>
                                 <p class="text-overflow-custom">Buy or sell ecommerce stores with our marketplace.
                                     Established businesses, proven
                                     profitability, and due diligence.</p>
@@ -92,8 +92,8 @@
                                 </line>
                             </svg>
                             <div class="col-md-2">
-                                <h5 class="text-uppercase"><a href="{{ route('branding') }}"
-                                        class="text-light text-decoration-none fs-18 fw-bold">Branding</a></h5>
+                                <p class="text-uppercase mb-1"><a href="{{ route('branding') }}"
+                                        class="text-light text-decoration-none fw-bold">Branding</a></p>
                                 <p class="text-overflow-custom">Craft a unique identity for your business with our
                                     expert services. Logo, color
                                     palette, messaging, and more.</p>
@@ -114,9 +114,9 @@
                                 </line>
                             </svg>
                             <div class="col-md-2">
-                                <h5 class="text-uppercase"><a href="{{ route('marketing') }}"
-                                        class="text-light text-decoration-none fs-18 fw-bold">Marketing & Content
-                                        Creation</a></h5>
+                                <p class="text-uppercase mb-1"><a href="{{ route('marketing') }}"
+                                        class="text-light text-decoration-none fw-bold">Marketing & Content
+                                        Creation</a></p>
                                 <p class="text-overflow-custom">Boost your online presence with strategic marketing
                                     and engaging content. SEO,
                                     social media, email, and more.</p>
@@ -137,8 +137,8 @@
                                 </line>
                             </svg>
                             <div class="col-md-2">
-                                <h5 class="text-uppercase"><a href="{{ route('concept') }}"
-                                        class="text-light text-decoration-none fs-18 fw-bold">Concept Creation</a></h5>
+                                <p class="text-uppercase mb-1"><a href="{{ route('concept') }}"
+                                        class="text-light text-decoration-none fw-bold">Concept Creation</a></p>
                                 <p class="text-overflow-custom">Bring your ideas to life with our innovative
                                     concept development services.
                                     Research, design, and execution.</p>

@@ -4,7 +4,7 @@
     <main id="main">
         <section class="bg-black">
             <div class="vh-100 card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
-                style="background-image: url('{{ asset('assets/img/hero/girl.jpg') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
+                style="background-image: url('{{ asset('assets/img/hero/ameerah2.png') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
                 <div class="card-body container text-white d-flex align-items-center">
                     <div class="fw-bold w-fifty mx-auto">
                         <p>VIP</p>
@@ -223,9 +223,9 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid">
+        <section>
             <div class="vh-100 card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
-                style="background-image: url('https://static.showit.co/1600/jAjbuuJKRaeNveSjhh0ySQ/65041/saffron-avenue-brand-design-showit-website-templates-0944.jpg'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
+                style="background-image: url('{{ asset('assets/img/hero/ameerah1.png') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
                 <div class="card-body container text-white d-flex align-items-center">
                     <div class="w-fifty mx-auto">
                         <h2 class="fst-italic h1">Investment</h2>
