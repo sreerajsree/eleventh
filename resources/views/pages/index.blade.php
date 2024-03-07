@@ -2,7 +2,22 @@
 
 @section('content')
     <main id="main">
-        <div class="bg-video-wrap">
+        <section class="bg-black">
+            <div class="vh-100 card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
+                style="background-image: url('{{ asset('assets/img/hero/banner.png') }}'); --bsb-overlay-opacity: .1; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
+                <div class="card-body container text-white d-flex align-items-center">
+                    <div class="fw-bold w-fifty mx-auto">
+                        <p><a href="{{ route('contact') }}" class="text-light fw-bold text-decoration-none">/ GET IN TOUCH /</a></p>
+                        <h2 class="fst-italic h1">Eleventh Acquire</h2>
+                        <p class="fs-8">Create a masterpiece and scale it to
+                            the moon. We
+                            specialize in futuristic sustainability, to increase your brand relevance for today and
+                            tomorrow.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- <div class="bg-video-wrap">
             <video src="//static.showit.co/file/bKIR_MkLQi-ZQ9c66cB8OA/65041/1-saffronavenue.mp4" loop muted autoplay>
             </video>
             <div class="overlay">
@@ -12,7 +27,7 @@
                 specialize in futuristic sustainability, to increase your brand relevance for today and
                 tomorrow.
             </h1>
-        </div>
+        </div> --}}
         <section class="bg-primary py-3" data-bs-theme="dark">
             <div class="container">
                 <div class="row align-items-center">
@@ -50,7 +65,7 @@
         <section class="bg-black">
             <div class="">
                 <div class="card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
-                    style="background-image: url('{{ asset('assets/img/hero/girl.jpg') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
+                    style="background-image: url('{{ asset('assets/img/hero/ameerah2.png') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
                     <div class="card-body text-white">
                         <h2 class="display-6 mb-0 font-lib text-center pb-4">Services</h2>
                         <div class="row align-items-center card-height justify-content-center">
@@ -138,7 +153,7 @@
             <div class="row align-items-center p-0 m-0">
                 <div class="col-md-2 p-0">
                     <img class="img-fluid studio-img"
-                        src="https://static.showit.co/800/uTwEf1yeQ9K4UGgps1g6uw/65041/saffron-avenue-brand-design-showit-website-templates-101.jpg"
+                        src="{{ asset('assets/img/hero/Studio XI 11.png') }}"
                         alt="">
                 </div>
                 <div class="col-md-8">
@@ -161,12 +176,30 @@
                 </div>
                 <div class="col-md-2 p-0">
                     <img class="img-fluid studio-img"
-                        src="https://static.showit.co/file/tmy2tslvS9-if8379Y8rfg/65041/videotogif_gif_6.gif"
+                        src="{{ asset('assets/img/hero/Studio XI 2.png') }}"
                         alt="">
                 </div>
             </div>
         </section>
-        <section class="container-fluid" style="margin-bottom: 120px">
+        <section class="container-fluid py-5">
+            <div>
+                <div class="row justify-content-md-center" id="clients">
+                    <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+                        <h2 class="display-6 mb-0 text-center pb-4 font-lib">Trusted by</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="logos-slider slider mb-4">
+                <div class="slide"><img src="./assets/img/hero/11.png"></div>
+                <div class="slide"><img src="./assets/img/hero/google.png"></div>
+                <div class="slide"><img src="./assets/img/hero/campbells.png"></div>
+                <div class="slide"><img src="./assets/img/hero/ulta-beauty.png"></div>
+                <div class="slide"><img src="./assets/img/hero/lyft.png"></div>
+                <div class="slide"><img src="./assets/img/hero/converse.png"></div>
+                <div class="slide"><img src="./assets/img/hero/ameerah.png"></div>
+            </div>
+        </section>
+        <section class="container-fluid" style="margin-bottom: 80px">
             <h2 class="display-6 py-3 text-center font-lib">Testimonial</h2>
             <div class="sd_master_wrapper">
                 <div class="sdtestBg2"></div>
@@ -245,24 +278,6 @@
             </div>
         </section>
 
-        <section class="container-fluid">
-            <div>
-                <div class="row justify-content-md-center" id="clients">
-                    <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-                        <h2 class="display-6 mb-0 text-center pb-4 font-lib">Trusted by</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="logos-slider slider mb-4">
-                <div class="slide"><img src="./assets/img/hero/11.png"></div>
-                <div class="slide"><img src="./assets/img/hero/google.png"></div>
-                <div class="slide"><img src="./assets/img/hero/campbells.png"></div>
-                <div class="slide"><img src="./assets/img/hero/ulta-beauty.png"></div>
-                <div class="slide"><img src="./assets/img/hero/lyft.png"></div>
-                <div class="slide"><img src="./assets/img/hero/converse.png"></div>
-                <div class="slide"><img src="./assets/img/hero/ameerah.png"></div>
-            </div>
-        </section>
         @include('includes.get-started')
     </main>
 @endsection
@@ -297,6 +312,7 @@
             $slickElement.slick({
                 autoplay: true,
                 dots: false,
+                arrows: false
             });
 
         });

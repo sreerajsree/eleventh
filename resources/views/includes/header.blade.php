@@ -16,7 +16,7 @@
                     <a class="nav-link active" aria-current="page" href="{{ route('services') }}">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/#clients">Clients</a>
+                    <a class="nav-link" href="/#studio">Studio XI</a>
                 </li>
                 <a class="navbar-brand d-none d-md-block" href="/">
                     <img src="{{ asset('assets/img/branding/logo.png') }}" class="bsb-tpl-logo" alt="">
