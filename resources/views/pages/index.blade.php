@@ -74,9 +74,10 @@
                                     <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         viewBox="0 0 330 330" xml:space="preserve">
-                                        <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                         s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                         c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                                        <path id="XMLID_27_"
+                                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                             s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                             c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
                                     </svg>
                                 </a>
                             </div>
@@ -109,8 +110,8 @@
                                         viewBox="0 0 330 330" xml:space="preserve">
                                         <path id="XMLID_27_"
                                             d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                             s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                             c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                                 s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                                 c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
                                     </svg>
                                 </a>
                             </div>
@@ -144,8 +145,8 @@
                                         viewBox="0 0 330 330" xml:space="preserve">
                                         <path id="XMLID_27_"
                                             d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                             s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                             c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                                 s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                                 c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
                                     </svg>
                                 </a>
                             </div>
@@ -178,8 +179,8 @@
                                         viewBox="0 0 330 330" xml:space="preserve">
                                         <path id="XMLID_27_"
                                             d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                             s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                             c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                                 s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                                 c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
                                     </svg>
                                 </a>
                             </div>
@@ -188,37 +189,38 @@
                 </div>
             </div>
         </section>
-        <section class="bg-primary py-3" data-bs-theme="dark">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3">
-                        <figure class="bsb-overlay-figure w-100 h-75 m-0" style="--bsb-overlay-figure-opacity: .3">
-                            <img class="img-fluid w-100 h-75 object-fit-cover curved-image-top" loading="lazy"
-                                src="./assets/img/hero/newyork.jpg" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="p-2">
-                            <h2 class="display-6 mb-0 font-lib mb-3 text-dark">About Us</h2>
-                            <p class="text-dark lead">Based in New York, the capital of the world, we lead a
-                                network
-                                from entry to exit and beyond.
-                                Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
-                                tomorrow. We have an extensively written e-book which was masterfully researched and
-                                implemented
-                                for 2 years prior to being published to enable to you follow the blueprint mark for mark in
-                                your
-                                own e-commerce business as well as a launch planner to facilitate in the days leading up to
-                                your
-                                brand launch. Our VIP design day is premeditated and intended for those who need it done
-                                ASAP.
-                                Studio XI creates and edits one months worth of content so you can focus on getting and
-                                fulfilling your sales.
-                            </p>
+        <section class="py-5">
+            <div class="bg-primary py-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <figure class="bsb-overlay-figure w-100 h-75 m-0" style="--bsb-overlay-figure-opacity: .3">
+                                <img class="img-fluid w-100 h-75 object-fit-cover curved-image-top" loading="lazy"
+                                    src="./assets/img/hero/newyork.jpg" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="p-2">
+                                <h2 class="display-6 mb-0 font-lib mb-3 text-dark">About Us</h2>
+                                <p class="text-dark lead">Based in New York, the capital of the world, we lead a
+                                    network
+                                    from entry to exit and beyond.
+                                    Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
+                                    tomorrow. We have an extensively written e-book which was masterfully researched and
+                                    implemented
+                                    for 2 years prior to being published to enable to you follow the blueprint mark for mark in
+                                    your
+                                    own e-commerce business as well as a launch planner to facilitate in the days leading up to
+                                    your
+                                    brand launch. Our VIP design day is premeditated and intended for those who need it done
+                                    ASAP.
+                                    Studio XI creates and edits one months worth of content so you can focus on getting and
+                                    fulfilling your sales.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <section class="container-fluid py-5">
