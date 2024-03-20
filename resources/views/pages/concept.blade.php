@@ -8,8 +8,8 @@
                     <div class="col-12 col-md-8 order-1 order-md-0 align-self-md-end">
                         <div class="row py-3 py-sm-5 py-xl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
-                                <h1 class="display-4  mb-4 text-light">Concept Creation</h1>
-                                <p class="mb-0 text-secondary"> Bring your ideas to life with our innovative
+                                <h1 class="display-4  mb-4 text-dark">Concept Creation</h1>
+                                <p class="mb-0 text-dark"> Bring your ideas to life with our innovative
                                     concept development services. Research, design, and execution.</p>
                             </div>
                         </div>
@@ -52,37 +52,37 @@
                     </div>
                     <div class="col-12 col-md-6 dots">
                         <div class="p-5">
-                            <h2 class="link-white border-light border-start border-5 p-3">Market research and
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Market research and
                                 analysis to identify customer needs and market opportunities</h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">Collaborative
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Collaborative
                                 brainstorming sessions to generate ideas that align with your business objectives
                                 and brand values</h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">Concept refinement
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Concept refinement
                                 through prototyping, testing, and feedback gathering</h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">Development of a
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Development of a
                                 detailed product roadmap that outlines the product development process, timeline,
                                 milestones, and resources required
                             </h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">
+                            <h2 class="link-dark border-dark border-start border-5 p-3">
                                 Assistance with patent and trademark applications, as needed
                             </h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">Paid advertising:
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Paid advertising:
                                 Support in securing funding for product development through grants, loans, or equity
                                 investments
                             </h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">Paid advertising:
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Paid advertising:
                                 Collaboration with manufacturers to ensure product quality, cost-effectiveness, and
                                 timely delivery
                             </h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">Paid advertising:
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Paid advertising:
                                 Development of a go-to-market strategy that includes pricing, distribution, and
                                 sales channels
                             </h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">Paid advertising:
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Paid advertising:
                                 Assistance with product launch planning and execution including PR activities,
                                 events planning etc.
                             </h2>
-                            <h2 class="link-white border-light border-start border-5 p-3">Paid advertising:
+                            <h2 class="link-dark border-dark border-start border-5 p-3">Paid advertising:
                                 Ongoing monitoring of product performance through analytics and feedback gathering
                                 for continuous improvement
                             </h2>

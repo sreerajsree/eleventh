@@ -4,70 +4,65 @@
     <main id="main">
         <section class="bg-black">
             <div class="vh-100 card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
-                style="background-image: url('{{ asset('assets/img/hero/banner.png') }}'); --bsb-overlay-opacity: .1; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
+                style="background-image: url('{{ asset('assets/img/hero/first-section.png') }}'); --bsb-overlay-opacity: .1; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
                 <div class="card-body container text-white d-flex align-items-center">
                     <div class="fw-bold w-fifty mx-auto">
-                        <p><a href="{{ route('contact') }}" class="text-light fw-bold text-decoration-none">/ GET IN TOUCH /</a></p>
-                        <h2 class="fst-italic h1">Eleventh Acquire</h2>
-                        <p class="fs-8">Create a masterpiece and scale it to
+                        <p><a href="{{ route('contact') }}" class="getintouch">GET IN TOUCH</a></p>
+                        <h1 class="fst-italic fs-44 text-lowercase my-4 ">Eleventh Acquire</h1>
+                        <h4 class="">Create a masterpiece and scale it to
                             the moon. We
                             specialize in futuristic sustainability, to increase your brand relevance for today and
-                            tomorrow.</p>
+                            tomorrow.</h4>
                     </div>
                 </div>
             </div>
         </section>
-        {{-- <div class="bg-video-wrap">
-            <video src="//static.showit.co/file/bKIR_MkLQi-ZQ9c66cB8OA/65041/1-saffronavenue.mp4" loop muted autoplay>
-            </video>
-            <div class="overlay">
-            </div>
-            <h1 class="display-5 fst-italic main-h1">Create a masterpiece and scale it to
-                the moon. We
-                specialize in futuristic sustainability, to increase your brand relevance for today and
-                tomorrow.
-            </h1>
-        </div> --}}
-        <section class="bg-primary py-3" data-bs-theme="dark">
+        <section class="py-5" style="background-color: #f5f5f5" id="studio">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-3">
-                        <figure class="bsb-overlay-figure w-100 h-75 m-0" style="--bsb-overlay-figure-opacity: .3">
-                            <img class="img-fluid w-100 h-75 object-fit-cover curved-image-top" loading="lazy"
-                                src="./assets/img/hero/newyork.jpg" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="p-2">
-                            <h2 class="display-6 mb-0 font-lib mb-3 text-light">About Us</h2>
-                            <p class="text-secondary lead">Based in New York, the capital of the world, we lead a
-                                network
-                                from entry to exit and beyond.
-                                Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
-                                tomorrow. We have an extensively written e-book which was masterfully researched and
-                                implemented
-                                for 2 years prior to being published to enable to you follow the blueprint mark for mark in
-                                your
-                                own e-commerce business as well as a launch planner to facilitate in the days leading up to
-                                your
-                                brand launch. Our VIP design day is premeditated and intended for those who need it done
-                                ASAP.
-                                Studio XI creates and edits one months worth of content so you can focus on getting and
-                                fulfilling your sales.
+                    <div class="col-md-4">
+                        <div class="p-3">
+                            <h2 class="display-6 mb-0 font-lib">Studio XI</h2>
+                            <p class="fs-6 font-man my-3 text-primary" style="font-weight:500;">
+                                At studio XI we create 30 days worth of content for you in 1
+                                hour. We have monthly and annual packages available to help you maximize your sales so we
+                                can
+                                take the weight off your shoulders and you can focus on what’s important.
                             </p>
+                            <p class="lead mb-4">
+                                Simply bring or send in your products for your allocation to our studio in NYC and leave the
+                                magic to us. We can also create campaigns and provide voiceovers. “Creativity is inventing,
+                                experimenting, growing, taking risks, breaking rules, making mistakes, and having fun.”
+                            </p>
+                            <a target="_blank" href="https://calendly.com/xiacquire"
+                                class="underline text-black text-uppercase fw-bold">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="slider">
+                            <div>
+                                <img src="{{ asset('assets/img/studio/studio-1.png') }}" alt="">
+                            </div>
+                            <div>
+                                <img src="{{ asset('assets/img/studio/studio-2.png') }}" alt="">
+                            </div>
+                            <div>
+                                <img src="{{ asset('assets/img/studio/studio-3.png') }}" alt="">
+                            </div>
+                            <div>
+                                <img src="{{ asset('assets/img/studio/studio-4.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         </section>
-
         <section class="bg-black">
             <div class="">
-                <div class="card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
-                    style="background-image: url('{{ asset('assets/img/hero/ameerah2.png') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
-                    <div class="card-body text-white">
-                        <h2 class="display-6 mb-0 font-lib text-center pt-10 pb-4">Services</h2>
+                <div class="vh-100 card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
+                    style="background-image: url('{{ asset('assets/img/hero/service-section.png') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
+                    <h2 class="display-6 mb-0 font-lib text-center text-light pt-10 pb-4">Services</h2>
+                    <div class="card-body text-white d-flex align-items-center">
                         <div class="row align-items-center card-height justify-content-center">
                             <div class="col-md-2">
                                 <p class="text-uppercase mb-1"><a href="{{ route('brandsforsale') }}"
@@ -75,6 +70,17 @@
                                 <p class="text-overflow-custom">Buy or sell ecommerce stores with our marketplace.
                                     Established businesses, proven
                                     profitability, and due diligence.</p>
+                                <div>
+                                    <a href="{{ route('brandsforsale') }}">
+                                        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            viewBox="0 0 330 330" xml:space="preserve">
+                                            <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                     s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                     c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                             <svg class="se-line" style="width: 36.05px; height: 144.57px;">
                                 <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
@@ -97,6 +103,17 @@
                                 <p class="text-overflow-custom">Craft a unique identity for your business with our
                                     expert services. Logo, color
                                     palette, messaging, and more.</p>
+                                <div>
+                                    <a href="{{ route('branding') }}">
+                                        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            viewBox="0 0 330 330" xml:space="preserve">
+                                            <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                         s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                         c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                             <svg class="se-line" style="width: 36.05px; height: 144.57px;">
                                 <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
@@ -120,6 +137,17 @@
                                 <p class="text-overflow-custom">Boost your online presence with strategic marketing
                                     and engaging content. SEO,
                                     social media, email, and more.</p>
+                                <div>
+                                    <a href="{{ route('marketing') }}">
+                                        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            viewBox="0 0 330 330" xml:space="preserve">
+                                            <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                         s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                         c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                             <svg class="se-line" style="width: 36.05px; height: 144.57px;">
                                 <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
@@ -142,43 +170,54 @@
                                 <p class="text-overflow-custom">Bring your ideas to life with our innovative
                                     concept development services.
                                     Research, design, and execution.</p>
+                                <div>
+                                    <a href="{{ route('concept') }}">
+                                        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            viewBox="0 0 330 330" xml:space="preserve">
+                                            <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                         s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                         c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="py-5" style="background-color: #D2C9BF" id="studio">
-            <div class="row align-items-center p-0 m-0">
-                <div class="col-md-2 p-0">
-                    <img class="img-fluid studio-img"
-                        src="{{ asset('assets/img/hero/Studio XI 11.png') }}"
-                        alt="">
-                </div>
-                <div class="col-md-8">
-                    <div class="text-center w-fifty mx-auto py-3">
-                        <h2 class="display-6 mb-0 font-lib">Studio XI</h2>
-                        <p class="fs-6 font-man my-3 text-primary" style="font-weight:500;">
-                            At studio XI we create 30 days worth of content for you in 1
-                            hour. We have monthly and annual packages available to help you maximize your sales so we
-                            can
-                            take the weight off your shoulders and you can focus on what’s important.
-                        </p>
-                        <p class="lead mb-4">
-                            Simply bring or send in your products for your allocation to our studio in NYC and leave the
-                            magic to us. We can also create campaigns and provide voiceovers. “Creativity is inventing,
-                            experimenting, growing, taking risks, breaking rules, making mistakes, and having fun.”
-                        </p>
-                        <a target="_blank" href="https://calendly.com/xiacquire"
-                            class="underline text-black text-uppercase fw-bold">Book Now</a>
+        <section class="bg-primary py-3" data-bs-theme="dark">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <figure class="bsb-overlay-figure w-100 h-75 m-0" style="--bsb-overlay-figure-opacity: .3">
+                            <img class="img-fluid w-100 h-75 object-fit-cover curved-image-top" loading="lazy"
+                                src="./assets/img/hero/newyork.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="p-2">
+                            <h2 class="display-6 mb-0 font-lib mb-3 text-dark">About Us</h2>
+                            <p class="text-dark lead">Based in New York, the capital of the world, we lead a
+                                network
+                                from entry to exit and beyond.
+                                Create, scale your brand or buy / sell an existing Shopify store with an offer on the table
+                                tomorrow. We have an extensively written e-book which was masterfully researched and
+                                implemented
+                                for 2 years prior to being published to enable to you follow the blueprint mark for mark in
+                                your
+                                own e-commerce business as well as a launch planner to facilitate in the days leading up to
+                                your
+                                brand launch. Our VIP design day is premeditated and intended for those who need it done
+                                ASAP.
+                                Studio XI creates and edits one months worth of content so you can focus on getting and
+                                fulfilling your sales.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-2 p-0">
-                    <img class="img-fluid studio-img"
-                        src="{{ asset('assets/img/hero/Studio XI 2.png') }}"
-                        alt="">
-                </div>
+            </div>
             </div>
         </section>
         <section class="container-fluid py-5">
@@ -304,6 +343,30 @@
                 }
             }]
         });
+        // Slick slider init
+        $(".slider").slick({
+            arrows: true,
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            centerMode: false,
+            variableWidth: false,
+            draggable: true,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 1
+                }
+            }]
+        });
     </script>
     <script>
         jQuery(document).ready(function($) {
@@ -314,30 +377,6 @@
                 dots: false,
                 arrows: false
             });
-
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $(".card").hover(
-                function() {
-                    $(this).addClass('shadow');
-                },
-                function() {
-                    $(this).removeClass('shadow');
-                }
-            );
-
-        });
-        $(document).ready(function() {
-            $(".zoom-img").hover(
-                function() {
-                    $(this).addClass('p-3');
-                },
-                function() {
-                    $(this).removeClass('p-3');
-                }
-            );
 
         });
     </script>

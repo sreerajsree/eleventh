@@ -22,7 +22,7 @@
                             </p>
                             <div>
                                 <a target="_blank" href="{{ route('brandsforsale') }}" class="btn mt-4"
-                                    style="background:#0e3e30; color:#fff; text-align:center; padding:10px 20px;">Read
+                                    style="background:#CCCCFF; color:#000; text-align:center; padding:10px 20px;">Read
                                     More</a>
                             </div>
                         </div>
@@ -37,7 +37,7 @@
                                 our expert services. Logo, color palette, messaging, and more.</p>
                             <div>
                                 <a target="_blank" href="{{ route('branding') }}" class="btn mt-4"
-                                    style="background:#0e3e30; color:#fff; text-align:center; padding:10px 20px;">Read
+                                    style="background:#CCCCFF; color:#000; text-align:center; padding:10px 20px;">Read
                                     More</a>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                                 and engaging content. SEO, social media, email, and more.</p>
                             <div>
                                 <a target="_blank" href="{{ route('marketing') }}" class="btn mt-4"
-                                    style="background:#0e3e30; color:#fff; text-align:center; padding:10px 20px;">Read
+                                    style="background:#CCCCFF; color:#000; text-align:center; padding:10px 20px;">Read
                                     More</a>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                                 concept development services. Research, design, and execution.</p>
                             <div>
                                 <a target="_blank" href="{{ route('concept') }}" class="btn mt-4"
-                                    style="background:#0e3e30; color:#fff; text-align:center; padding:10px 20px;">Read
+                                    style="background:#CCCCFF; color:#000; text-align:center; padding:10px 20px;">Read
                                     More</a>
                             </div>
                         </div>

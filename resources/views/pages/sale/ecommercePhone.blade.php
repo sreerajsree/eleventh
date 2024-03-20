@@ -14,8 +14,8 @@
                     <div class="col-12 col-md-6">
                         <div class="b-sale p-3">
                             <img src="{{ asset('assets/img/hero/Elemnt.png') }}" width="80" height="80" alt="">
-                            <h1 class="py-2 text-light">Ecommerce | Phone Cases</h1>
-                            <p class="text-light">#1 driving glasses on the market. $1M/Month @ 40% P/M. 45,000+ engaged on email newsletter last 90 days. Market will grow for 10+ years. "Excellent" Trustpilot.</p>
+                            <h1 class="py-2 text-dark">Ecommerce | Phone Cases</h1>
+                            <p class="text-dark">#1 driving glasses on the market. $1M/Month @ 40% P/M. 45,000+ engaged on email newsletter last 90 days. Market will grow for 10+ years. "Excellent" Trustpilot.</p>
                             <div>
                                 <button class="btn btn-secondary btn-sm">Ecommerce</button>
                                 <button class="btn btn-secondary btn-sm">Gadgets</button>

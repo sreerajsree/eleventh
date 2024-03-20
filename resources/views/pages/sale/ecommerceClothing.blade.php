@@ -14,8 +14,8 @@
                     <div class="col-12 col-md-6">
                         <div class="b-sale p-3">
                             <img src="{{ asset('assets/img/hero/Eleven.png') }}" width="80" height="80" alt="">
-                            <h1 class="py-2 text-light">Ecommerce | Clothing</h1>
-                            <p class="text-light">7-year old UK-based oral care eCommerce brand|$3.6M USD yearly revenue| 18%
+                            <h1 class="py-2 text-dark">Ecommerce | Clothing</h1>
+                            <p class="text-dark">7-year old UK-based oral care eCommerce brand|$3.6M USD yearly revenue| 18%
                                 profit margin|Selling 5 SKUs and with a strong growth potential</p>
                             <div>
                                 <button class="btn btn-secondary btn-sm">Ecommerce</button>

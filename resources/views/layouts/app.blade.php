@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=DM+Serif+Display&family=Libre+Caslon+Display&family=Manrope:wght@500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
     <link rel="stylesheet" href="{{ asset('assets/css/palette-bsb.css') }}">
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>

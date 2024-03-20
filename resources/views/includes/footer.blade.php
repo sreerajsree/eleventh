@@ -68,7 +68,7 @@
                                     States</p>
                                 <p class="mb-0">
                                     <a class="link-dark text-decoration-underline link-offset-2"
-                                        href="mailto:demo@yourdomain.com">contact@eleventhacquire.com</a>
+                                        href="mailto:contact@eleventhacquire.com">contact@eleventhacquire.com</a>
                                 </p>
                             </div>
                         </div>

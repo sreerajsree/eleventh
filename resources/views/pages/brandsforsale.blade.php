@@ -8,8 +8,8 @@
                     <div class="col-12 col-md-8 order-1 order-md-0 align-self-md-end">
                         <div class="row py-3 py-sm-5 py-xl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
-                                <h1 class="display-4 mb-4 text-light">Brands for Sale</h1>
-                                <p class="mb-0 text-secondary">Buy or sell ecommerce stores with our
+                                <h1 class="display-4 mb-4 text-dark">Brands for Sale</h1>
+                                <p class="mb-0 text-dark">Buy or sell ecommerce stores with our
                                     marketplace. Established businesses, proven profitability, and due diligence.
                                 </p>
                             </div>
@@ -91,7 +91,7 @@
                         <p class="lead">If you have any brand you want to list for sale on our website, please get in
                             touch with us.</p>
                         <p class="text-center"><a href="{{ route('contact') }}" class="btn"
-                                style="background:#0e3e30; border-radius:10px; color:#fff; text-align:center; padding:10px 20px;">Get
+                                style="background:#CCCCFF; border-radius:10px; color:#000; text-align:center; padding:10px 20px;">Get
                                 in
                                 Touch</a></p>
                     </div>

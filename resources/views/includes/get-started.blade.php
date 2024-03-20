@@ -1,4 +1,4 @@
-<section class="py-10" style="background-color: #F8F6F4">
+<section class="py-10 border-top">
     <div class="container">
         <div class="text-center">
             <h2 class="display-5 mb-0 font-lib font-bold">Need Custom Plan?</h2>

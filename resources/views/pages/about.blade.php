@@ -8,8 +8,8 @@
                     <div class="col-12 col-md-8 order-1 order-md-0 align-self-md-end">
                         <div class="row py-3 py-sm-5 py-xl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
-                                <h1 class="display-4 mb-4 text-light">About Us</h1>
-                                <p class="mb-0 text-secondary">Founded by award winning entrepreneur, Ameerah,
+                                <h1 class="display-4 mb-4 text-dark">About Us</h1>
+                                <p class="mb-0 text-dark">Founded by award winning entrepreneur, Ameerah,
                                     who owns a portfolio of multi million dollar e-commerce brands. We bring you a
                                     solution to any and every barrier you may face as a business owner.</p>
                             </div>
@@ -18,7 +18,7 @@
                     <div class="col-12 col-md-4 p-0">
                         <figure class="bsb-overlay-figure w-100 h-100 m-0" style="--bsb-overlay-figure-opacity: .3">
                             <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
-                                src="./assets/img/hero/about-img-1.webp" alt="">
+                                src="./assets/img/hero/about-image.png" alt="">
                         </figure>
                     </div>
                 </div>
@@ -63,36 +63,36 @@
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="p-3">
-                            <h2 class="display-4 mb-4 text-light">Our Success</h2>
-                            <p class="mb-5 text-secondary">With years of experience and deep industry knowledge,
+                            <h2 class="display-4 mb-4 text-dark">Our Success</h2>
+                            <p class="mb-5 text-dark">With years of experience and deep industry knowledge,
                                 we have a proven track record of success and are constantly pushing ourselves to stay
                                 ahead of the curve.</p>
                             <div class="row gy-4 gy-sm-0 overflow-hidden">
                                 <div class="col-12 col-sm-6">
-                                    <div class="card bg-transparent border-light shadow-sm mb-4">
+                                    <div class="card bg-transparent border-dark shadow-sm mb-4">
                                         <div class="card-body text-center p-4 p-xxl-5">
-                                            <h4 class="display-5 mb-2 text-light">60</h4>
-                                            <p class="mb-0 text-secondary">Finished Projects</p>
+                                            <h4 class="display-5 mb-2 text-dark">60</h4>
+                                            <p class="mb-0 text-dark">Finished Projects</p>
                                         </div>
                                     </div>
-                                    <div class="card bg-transparent border-light shadow-sm">
+                                    <div class="card bg-transparent border-dark shadow-sm">
                                         <div class="card-body text-center p-4 p-xxl-5">
-                                            <h4 class="display-5 mb-2 text-light">5k+</h4>
-                                            <p class="mb-0 text-secondary">Issues Solved</p>
+                                            <h4 class="display-5 mb-2 text-dark">5k+</h4>
+                                            <p class="mb-0 text-dark">Issues Solved</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <div class="card bg-transparent border-light mt-lg-6 mt-xxl-8 mb-4">
+                                    <div class="card bg-transparent border-dark mt-lg-6 mt-xxl-8 mb-4">
                                         <div class="card-body text-center p-4 p-xxl-5">
-                                            <h4 class="display-5 mb-2 text-light">1k+</h4>
-                                            <p class="mb-0 text-secondary">Happy Customers</p>
+                                            <h4 class="display-5 mb-2 text-dark">1k+</h4>
+                                            <p class="mb-0 text-dark">Happy Customers</p>
                                         </div>
                                     </div>
                                     {{-- <div class="card bg-transparent border-accent">
                                         <div class="card-body text-center p-4 p-xxl-5">
                                             <h4 class="display-5 mb-2">78</h4>
-                                            <p class="mb-0 text-secondary">Awwwards</p>
+                                            <p class="mb-0 text-dark">Awwwards</p>
                                         </div>
                                     </div> --}}
                                 </div>
