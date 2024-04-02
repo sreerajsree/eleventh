@@ -91,6 +91,27 @@
                         </figure>
                     </div>
                 </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6 p-0">
+                        <figure class="bsb-overlay-figure w-100  m-0" style="--bsb-overlay-figure-opacity: .3">
+                            <img class="img-fluid w-100 object-fit-contain" loading="lazy"
+                                src="{{ asset('assets/img/hero/pr.png') }}" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <div class="text-center text-black p-3">
+                            <p class="display-5">05</p>
+                            <h1 class="display-4 mb-4 text-black">Public Relation</h1>
+                            <p class="mb-0 text-dark">We are dedicated to helping businesses, individuals, and organizations
+                                build and maintain a strong, positive image in the eyes of their target audience.</p>
+                            <div>
+                                <a target="_blank" href="{{ route('pr') }}" class="btn mt-4"
+                                    style="background:#CCCCFF; color:#000; text-align:center; padding:10px 20px;">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 

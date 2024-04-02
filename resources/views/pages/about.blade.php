@@ -59,7 +59,7 @@
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6 p-0">
                         <img class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"
-                            src="./assets/img/fact/fact-img-1.webp" alt="">
+                            src="./assets/img/hero/ameerah-new.jpg" alt="">
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="p-3">

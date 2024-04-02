@@ -31,6 +31,7 @@ Route::view('services/branding', 'pages.branding')->name('branding');
 Route::view('services/brands-for-sale', 'pages.brandsforsale')->name('brandsforsale');
 Route::view('services/concept-creation', 'pages.concept')->name('concept');
 Route::view('services/marketing-and-content-creation', 'pages.marketing')->name('marketing');
+Route::view('services/public-relation', 'pages.pr')->name('pr');
 
 Route::group(['prefix' => 'admin'], function () {
     Auth::routes();

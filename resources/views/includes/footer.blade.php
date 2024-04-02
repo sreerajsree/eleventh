@@ -100,6 +100,10 @@
                                                     class="link-light text-decoration-none">Concept Creation</a>
                                             </li>
                                             <li class="mb-2">
+                                                <a href="{{ route('pr') }}"
+                                                    class="link-light text-decoration-none">Public Relation</a>
+                                            </li>
+                                            <li class="mb-2">
                                                 <a href="{{ route('vip') }}"
                                                     class="link-light text-decoration-none">VIP</a>
                                             </li>
