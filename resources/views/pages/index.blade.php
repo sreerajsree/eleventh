@@ -201,7 +201,7 @@
                             </line>
                         </svg>
                         <div class="col-md-2">
-                            <p class="text-uppercase mb-1"><a href="{{ route('concept') }}"
+                            <p class="text-uppercase mb-1"><a href="{{ route('pr') }}"
                                     class="text-light text-decoration-none fw-bold">Public Relation</a></p>
                             <p class="text-overflow-custom">Assisting businesses, individuals, and orgs to create a strong, positive image.</p>
                             <div>
