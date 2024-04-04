@@ -101,7 +101,7 @@
                                             </li>
                                             <li class="mb-2">
                                                 <a href="{{ route('pr') }}"
-                                                    class="link-light text-decoration-none">Public Relation</a>
+                                                    class="link-light text-decoration-none">Public Relations</a>
                                             </li>
                                             <li class="mb-2">
                                                 <a href="{{ route('vip') }}"

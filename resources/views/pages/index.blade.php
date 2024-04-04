@@ -60,7 +60,7 @@
         <section class="bg-black">
             <div class="card border-0 rounded-0  overflow-hidden text-center bsb-overlay"
                 style="background-image: url('{{ asset('assets/img/hero/service-section.png') }}'); --bsb-overlay-opacity: .4; background-size:cover;background-position: 50% 50%;background-repeat: no-repeat;">
-                <h2 class="display-6 mb-0 font-lib text-center text-light pt-10 pb-4">Services</h2>
+                <h2 class="display-6 mb-0 font-lib text-center text-light pt-3 pt-md-10 pb-4">Services</h2>
                 <div class="card-body text-white d-flex align-items-center">
                     <div class="row align-items-center card-height justify-content-center">
                         <div class="col-md-2">
@@ -69,18 +69,18 @@
                             <p class="text-overflow-custom">Buy or sell ecommerce stores with our marketplace.
                                 Established businesses, proven
                                 profitability, and due diligence.</p>
-                            <div>
-                                <a href="{{ route('brandsforsale') }}">
-                                    <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
-                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        viewBox="0 0 330 330" xml:space="preserve">
-                                        <path id="XMLID_27_"
-                                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                             s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                             c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
-                                    </svg>
-                                </a>
-                            </div>
+                            <!--<div>-->
+                            <!--    <a href="{{ route('brandsforsale') }}">-->
+                            <!--        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"-->
+                            <!--            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"-->
+                            <!--            viewBox="0 0 330 330" xml:space="preserve">-->
+                            <!--            <path id="XMLID_27_"-->
+                            <!--                d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255-->
+                            <!-- s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0-->
+                            <!-- c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />-->
+                            <!--        </svg>-->
+                            <!--    </a>-->
+                            <!--</div>-->
                         </div>
                         <svg class="se-line" style="width: 36.05px; height: 144.57px;">
                             <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
@@ -103,18 +103,18 @@
                             <p class="text-overflow-custom">Craft a unique identity for your business with our
                                 expert services. Logo, color
                                 palette, messaging, and more.</p>
-                            <div>
-                                <a href="{{ route('branding') }}">
-                                    <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
-                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        viewBox="0 0 330 330" xml:space="preserve">
-                                        <path id="XMLID_27_"
-                                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                                 s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                                 c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
-                                    </svg>
-                                </a>
-                            </div>
+                            <!--<div>-->
+                            <!--    <a href="{{ route('branding') }}">-->
+                            <!--        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"-->
+                            <!--            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"-->
+                            <!--            viewBox="0 0 330 330" xml:space="preserve">-->
+                            <!--            <path id="XMLID_27_"-->
+                            <!--                d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255-->
+                            <!--     s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0-->
+                            <!--     c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />-->
+                            <!--        </svg>-->
+                            <!--    </a>-->
+                            <!--</div>-->
                         </div>
                         <svg class="se-line" style="width: 36.05px; height: 144.57px;">
                             <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
@@ -138,18 +138,18 @@
                             <p class="text-overflow-custom">Boost your online presence with strategic marketing
                                 and engaging content. SEO,
                                 social media, email, and more.</p>
-                            <div>
-                                <a href="{{ route('marketing') }}">
-                                    <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
-                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        viewBox="0 0 330 330" xml:space="preserve">
-                                        <path id="XMLID_27_"
-                                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                                 s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                                 c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
-                                    </svg>
-                                </a>
-                            </div>
+                            <!--<div>-->
+                            <!--    <a href="{{ route('marketing') }}">-->
+                            <!--        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"-->
+                            <!--            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"-->
+                            <!--            viewBox="0 0 330 330" xml:space="preserve">-->
+                            <!--            <path id="XMLID_27_"-->
+                            <!--                d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255-->
+                            <!--     s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0-->
+                            <!--     c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />-->
+                            <!--        </svg>-->
+                            <!--    </a>-->
+                            <!--</div>-->
                         </div>
                         <svg class="se-line" style="width: 36.05px; height: 144.57px;">
                             <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
@@ -172,18 +172,18 @@
                             <p class="text-overflow-custom">Bring your ideas to life with our innovative
                                 concept development services.
                                 Research, design, and execution.</p>
-                            <div>
-                                <a href="{{ route('concept') }}">
-                                    <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
-                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        viewBox="0 0 330 330" xml:space="preserve">
-                                        <path id="XMLID_27_"
-                                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                                 s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                                 c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
-                                    </svg>
-                                </a>
-                            </div>
+                            <!--<div>-->
+                            <!--    <a href="{{ route('concept') }}">-->
+                            <!--        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"-->
+                            <!--            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"-->
+                            <!--            viewBox="0 0 330 330" xml:space="preserve">-->
+                            <!--            <path id="XMLID_27_"-->
+                            <!--                d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255-->
+                            <!--     s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0-->
+                            <!--     c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />-->
+                            <!--        </svg>-->
+                            <!--    </a>-->
+                            <!--</div>-->
                         </div>
                         <svg class="se-line" style="width: 36.05px; height: 144.57px;">
                             <line data-d-strokelinecap="round" data-d-linestyle="solid" data-d-thickness="1"
@@ -204,18 +204,18 @@
                             <p class="text-uppercase mb-1"><a href="{{ route('pr') }}"
                                     class="text-light text-decoration-none fw-bold">Public Relation</a></p>
                             <p class="text-overflow-custom">Assisting businesses, individuals, and orgs to create a strong, positive image.</p>
-                            <div>
-                                <a href="{{ route('concept') }}">
-                                    <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
-                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        viewBox="0 0 330 330" xml:space="preserve">
-                                        <path id="XMLID_27_"
-                                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
-                                 s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
-                                 c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />
-                                    </svg>
-                                </a>
-                            </div>
+                            <!--<div>-->
+                            <!--    <a href="{{ route('concept') }}">-->
+                            <!--        <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"-->
+                            <!--            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"-->
+                            <!--            viewBox="0 0 330 330" xml:space="preserve">-->
+                            <!--            <path id="XMLID_27_"-->
+                            <!--                d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255-->
+                            <!--     s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0-->
+                            <!--     c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z" />-->
+                            <!--        </svg>-->
+                            <!--    </a>-->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>

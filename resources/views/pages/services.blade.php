@@ -101,7 +101,7 @@
                     <div class="col-md-6 p-0">
                         <div class="text-center text-black p-3">
                             <p class="display-5">05</p>
-                            <h1 class="display-4 mb-4 text-black">Public Relation</h1>
+                            <h1 class="display-4 mb-4 text-black">Public Relations</h1>
                             <p class="mb-0 text-dark">We are dedicated to helping businesses, individuals, and organizations
                                 build and maintain a strong, positive image in the eyes of their target audience.</p>
                             <div>

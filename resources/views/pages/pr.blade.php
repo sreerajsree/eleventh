@@ -8,7 +8,7 @@
                     <div class="col-12 col-md-8 order-1 order-md-0 align-self-md-end">
                         <div class="row py-3 py-sm-5 py-xl-9 justify-content-sm-center">
                             <div class="col-12 col-sm-10">
-                                <h1 class="display-4  mb-4 text-dark">Public Relation</h1>
+                                <h1 class="display-4  mb-4 text-dark">Public Relations</h1>
                                 <p class="mb-0 text-dark"> We are dedicated to helping businesses, individuals, and
                                     organizations build and maintain a strong, positive image in the eyes of their target
                                     audience.</p>
@@ -50,38 +50,38 @@
                     <div class="col-12 col-md-6 dots">
                         <div class="p-5">
                             <h2 class="fw-bold p-3 text-black">Why Choose Our Public Relations Services?</h2>
-                            <h2 class="link-dark border-dark border-start border-5 p-3"><b class="fst-italic">Strategic Planning:</b> We begin
+                            <h2 class="link-dark border-dark border-start border-5 p-3"><b>Strategic Planning:</b> We begin
                                 by
                                 understanding your brand, target audience, and communication objectives. Our tailored PR
                                 strategies ensure that your message reaches the right people at the right time, maximizing
                                 your impact.</h2>
-                            <h2 class="link-dark border-dark border-start border-5 p-3"><b class="fst-italic">Media Relations:</b> Our
+                            <h2 class="link-dark border-dark border-start border-5 p-3"><b>Media Relations:</b> Our
                                 extensive network of media contacts allows us to secure valuable coverage in various
                                 platforms, including print, online, and broadcast outlets. We work closely with journalists
                                 to present your story in the most engaging and newsworthy manner.
                             </h2>
-                            <h2 class="link-dark border-dark border-start border-5 p-3"><b class="fst-italic">Crisis Management:</b> In the
+                            <h2 class="link-dark border-dark border-start border-5 p-3"><b>Crisis Management:</b> In the
                                 event of an unexpected issue or negative publicity, our team is prepared to swiftly develop
                                 and execute a crisis management plan to protect your reputation and minimize damage.
                             </h2>
-                            <h2 class="link-dark border-dark border-start border-5 p-3"><b class="fst-italic">Influencer Outreach:</b> We
+                            <h2 class="link-dark border-dark border-start border-5 p-3"><b>Influencer Outreach:</b> We
                                 identify and engage with relevant influencers and opinion leaders to amplify your brand's
                                 reach and credibility. Our partnerships can help you tap into new markets and foster
                                 long-lasting relationships.
                             </h2>
-                            <h2 class="link-dark border-dark border-start border-5 p-3"><b class="fst-italic">Content Creation:</b> Our team of
+                            <h2 class="link-dark border-dark border-start border-5 p-3"><b>Content Creation:</b> Our team of
                                 skilled writers and designers crafts compelling press releases, articles, social media
                                 posts, and other materials to keep your audience engaged and informed.
                             </h2>
-                            <h2 class="link-dark border-dark border-start border-5 p-3"><b class="fst-italic">Event Management:</b> From small
+                            <h2 class="link-dark border-dark border-start border-5 p-3"><b>Event Management:</b> From small
                                 press conferences to large-scale product launches, we handle every aspect of event planning
                                 and execution, ensuring a seamless experience for your guests and optimal media coverage.
                             </h2>
-                            <h2 class="link-dark border-dark border-start border-5 p-3"><b class="fst-italic">Reputation Management:</b> We
+                            <h2 class="link-dark border-dark border-start border-5 p-3"><b>Reputation Management:</b> We
                                 monitor and analyze online conversations about your brand, allowing us to address any
                                 negative feedback and maintain a strong, positive image.
                             </h2>
-                            <h2 class="link-dark border-dark border-start border-5 p-3"><b class="fst-italic">Measurable Results:</b> We
+                            <h2 class="link-dark border-dark border-start border-5 p-3"><b>Measurable Results:</b> We
                                 believe in data-driven strategies, and our regular performance reports help you track the
                                 success of your PR campaigns and make informed decisions for future growth.
                             </h2>

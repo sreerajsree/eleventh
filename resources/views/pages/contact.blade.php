@@ -47,6 +47,7 @@
                                             <option value="Marketing & Content Creation">Marketing & Content Creation
                                             </option>
                                             <option value="Concept Creation">Concept Creation</option>
+                                            <option value="Public Relation">Public Relation</option>
                                         </select>
                                     </div>
                                     <div class="col-12">

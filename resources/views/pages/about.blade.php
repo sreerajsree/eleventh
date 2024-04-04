@@ -49,6 +49,10 @@
                     <br><br>
                     Contact us today to learn more about how we can help you achieve your business goals!
                 </p>
+                <div class="text-center">
+                    <a target="_blank" href="https://www.paypal.com/ncp/payment/EXJCXYC4QJWVJ" class="btn mt-4"
+                        style="background:#CCCCFF; color:#000; text-align:center; padding:10px 20px;">Buy our eBook</a>
+                </div>
             </div>
         </section>
 
